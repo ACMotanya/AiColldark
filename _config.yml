@@ -1,7 +1,7 @@
 # Site settings
 title: Ai Collaborative
 email: your-email@domain.com
-
+baseurl: "/AiColldark"
 url: https://acmotanya.github.io
 description: "Architecture & Interior Design Collaborative"
 
