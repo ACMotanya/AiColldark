@@ -11,8 +11,8 @@
       <!-- Logo
       ============================================= -->
       <div id="logo">
-        <a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
-        <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+        <a href="{{ site.baseurl }}/" class="standard-logo" data-dark-logo="{{ site.baseurl }}/img/aic.png"><img src="{{ site.baseurl }}/img/logo.jpg" alt="Canvas Logo"></a>
+        <a href="{{ site.baseurl }}/" class="retina-logo" data-dark-logo="{{ site.baseurl }}/img/aic.png"><img src="{{ site.baseurl }}/img/logo.jpg" alt="Canvas Logo"></a>
       </div><!-- #logo end -->
 
       <!-- Primary Navigation
@@ -20,18 +20,16 @@
       <nav id="primary-menu">
         <ul>
           <li><a href="{{ site.baseurl }}/"><div>HOME</div></a></li>
-          <li><a href="{{ site.baseurl }}/about"><div>ABOUT US</div></a></li>
-          <li><a href="{{ site.baseurl }}/comingsoon"><div>FIND STORE</div></a></li>
-          <li><a href="{{ site.baseurl }}/comingsoon1"><div>RETAILERS</div></a></li>
-          <li><a href="https://www.ivystone.com/find/search-for-a-sales-representative.asp" target="_blank"><div>FIND A REP</div></a></li>
-
-          {% if page.url == "/contact/" %}
-            <li class="current"><a href="{{ site.baseurl }}/contact"><div>CONTACT</div></a></li>
-          {% else %}
-            <li><a href="{{ site.baseurl }}/contact"><div>CONTACT</div></a></li>
-          {% endif %}
-
-          <li><a href="http://www.cousin.com" target="_blank"><div>COUSIN.COM</div></a></li>
+          <li><a><div>PROFILE</div></a>
+            <ul>
+              <li><a href="{{ site.baseurl }}/about_canvas"><div>ABOUT</div></a></li>
+              <li><a href="index-corporate-2.html"><div>SERVICES</div></a></li>
+              <li><a href="index-corporate-3.html"><div>PRINCIPALS</div></a></li>
+            </ul>
+          </li>
+          <li><a href="{{ site.baseurl }}/portfolio_canvas"><div>PORTFOLIO</div></a></li>
+          <li><a href="{{ site.baseurl }}/awards_canvas"><div>AWARDS</div></a></li>
+          <li><a href="{{ site.baseurl }}/contact_canvas"}><div>CONTACT</div></a></li>
         </ul>
       </nav><!-- #primary-menu end -->
 

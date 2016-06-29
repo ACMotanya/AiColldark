@@ -649,7 +649,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 }
 .welcome-box-list li:before {
     font-family: xlntcode;
-    content: "\e600";
+    content: "\e400";
     margin-left: -3px;
     padding-right: 3px;
 }
@@ -673,11 +673,11 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 }
 .person {
     margin: 0 auto 1px;
-    max-height: 600px!important;
+    max-height: 400px!important;
 }
 .person-mp {
     margin: 0 auto;
-    max-height: 600px!important;
+    max-height: 400px!important;
 }
 /* ==============================================================
    9. Section Services
@@ -1164,7 +1164,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 }
 #section-team-mp .team-member img {
     margin: 0 auto -15px;
-    max-height: 600px!important;
+    max-height: 400px!important;
 }
 #section-team-mp .team-member-info h3 small {
     display: block;
