@@ -1,1 +1,22 @@
+<<<<<<< HEAD
+=======
+/* ----------------------------------------------------------------
+	Custom CSS
 
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+-----------------------------------------------------------------*/
+
+#header.transparent-header.full-header #header-wrap {
+	border-bottom: transparent;
+}
+
+
+#header.full-header, {
+	border-bottom-color: transparent;;
+}
+>>>>>>> 06e074988db7f5754a90d961918bf6a7d410537a
+
+#header.transparent-header.full-header #primary-menu > ul, #header.transparent-header.full-header #logo {
+	border-right-color: transparent;;
+}

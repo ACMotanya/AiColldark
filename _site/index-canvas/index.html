@@ -14,9 +14,12 @@
 	<link rel="stylesheet" href="/AiColldark/css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="/AiColldark/css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="/AiColldark/css/magnific-popup.css" type="text/css" />
-
 	<link rel="stylesheet" href="/AiColldark/css/responsive.css" type="text/css" />
+<<<<<<< HEAD
 	<link rel="stylesheet" href="/AiColldark/css/custom.css" type="text/css" />
+=======
+
+>>>>>>> 06e074988db7f5754a90d961918bf6a7d410537a
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--[if lt IE 9]>
 		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -26,6 +29,7 @@
 	<link rel="stylesheet" type="text/css" href="/AiColldark/include/rs-plugin/css/settings.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="/AiColldark/include/rs-plugin/css/layers.css">
 	<link rel="stylesheet" type="text/css" href="/AiColldark/include/rs-plugin/css/navigation.css">
+	<link rel="stylesheet" href="/AiColldark/css/custom.css" type="text/css" />
 
 	<!-- Document Title
 	============================================= -->
@@ -295,6 +299,7 @@
 <script type="text/javascript" src="/AiColldark/include/rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
 <script type="text/javascript" src="/AiColldark/include/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
 
+<!--
 <script type="text/javascript">
 
   var tpj=jQuery;
@@ -420,6 +425,93 @@
 
   }); //ready
 
+</script>
+-->
+
+<script type="text/javascript">
+  var tpj = jQuery;
+
+  var revapi287;
+  tpj(document).ready(function() {
+    if (tpj("#rev_slider_287_1").revolution == undefined) {
+      revslider_showDoubleJqueryError("#rev_slider_287_1");
+    } else {
+      revapi287 = tpj("#rev_slider_287_1").show().revolution({
+        sliderType: "standard",
+        jsFileLocation: "include/rs-plugin/js/",
+        sliderLayout: "fullscreen",
+        dottedOverlay: "none",
+        delay: 9000,
+        navigation: {
+          keyboardNavigation: "off",
+          keyboard_direction: "horizontal",
+          mouseScrollNavigation: "off",
+          onHoverStop: "off",
+          touch: {
+            touchenabled: "on",
+            swipe_threshold: 75,
+            swipe_min_touches: 50,
+            swipe_direction: "horizontal",
+            drag_block_vertical: false
+          },
+          arrows: {
+            style: "uranus",
+            enable: true,
+            hide_onmobile: true,
+            hide_under: 778,
+            hide_onleave: true,
+            hide_delay: 200,
+            hide_delay_mobile: 1200,
+            tmp: '',
+            left: {
+              h_align: "left",
+              v_align: "center",
+              h_offset: 20,
+              v_offset: 0
+            },
+            right: {
+              h_align: "right",
+              v_align: "center",
+              h_offset: 20,
+              v_offset: 0
+            }
+          }
+        },
+        responsiveLevels: [1240, 1024, 778, 480],
+        gridwidth: [1200, 1024, 778, 480],
+        gridheight: [645, 576, 480, 480],
+        lazyType: "none",
+        parallax: {
+          type: "scroll",
+          origo: "enterpoint",
+          speed: 400,
+          levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 51, 55],
+          type: "scroll",
+        },
+        shadow: 0,
+        spinner: "off",
+        stopLoop: "on",
+        stopAfterLoops: 0,
+        stopAtSlide: 1,
+        shuffle: "off",
+        autoHeight: "off",
+        fullScreenAutoWidth: "off",
+        fullScreenAlignForce: "off",
+        fullScreenOffsetContainer: "",
+        disableProgressBar: "on",
+        hideThumbsOnMobile: "off",
+        hideSliderAtLimit: 0,
+        hideCaptionAtLimit: 0,
+        hideAllCaptionAtLilmit: 0,
+        debugMode: false,
+        fallbacks: {
+          simplifyAll: "off",
+          nextSlideOnWindowFocus: "off",
+          disableFocusListener: false,
+        }
+      });
+    }
+  }); /*ready*/
 </script>
 
     </body>
