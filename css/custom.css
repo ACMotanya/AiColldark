@@ -1,11 +1,33 @@
-<<<<<<< HEAD
-=======
-/* ----------------------------------------------------------------
-	Custom CSS
 
-	Add all your Custom Styled CSS here for New Styles or
-	Overwriting Default Theme Styles for Better Hanlding Updates
------------------------------------------------------------------*/
+#logo-words p{
+  font-weight: 700;
+  font-size: 17px;
+	margin-bottom: 21px;
+}
+p.row1{
+  margin-left: -13px;
+  margin-top: 3px;
+  letter-spacing: .2px;
+}
+p.row2{
+  margin-left: -11px;
+  margin-top: -19px;
+  letter-spacing: -.2px;
+}
+p.row3{
+  margin-left: -11px;
+  margin-top: -19px;
+  letter-spacing: .2px;
+}
+a #logo-words{
+  color: white;
+}
+a:hover #logo-words{
+  color: #D2312B;
+}
+.red {
+    color: #D2312B;
+}
 
 #header.transparent-header.full-header #header-wrap {
 	border-bottom: transparent;
@@ -15,8 +37,55 @@
 #header.full-header, {
 	border-bottom-color: transparent;;
 }
->>>>>>> 06e074988db7f5754a90d961918bf6a7d410537a
+
 
 #header.transparent-header.full-header #primary-menu > ul, #header.transparent-header.full-header #logo {
 	border-right-color: transparent;;
+}
+
+#primary-menu ul ul:not(.mega-menu-column), #primary-menu ul li .mega-menu-content {
+	background-color: rgba(255, 255, 255, 0.3);
+	border-left: none;
+	border-bottom: none;
+	border-right: none;
+}
+
+#primary-menu ul li > a, #primary-menu ul ul li > a {
+	color: white;
+}
+
+[class^="icon-"], [class*=" icon-"], [class^="icon-line-"], [class*=" icon-line-"], [class^="icon-line2-"], [class*=" icon-line2-"], .side-header #primary-menu ul > li.sub-menu > a:after {
+	color: #D2312B;
+	font-size: 24px;
+}
+
+@media screen and (max-width:991px) {
+  #logo-words{
+    margin-top: 1px;
+  }
+  a.navbar-brand {
+    display: none;
+  }
+	p.row1{
+    margin-left: -24px;
+    margin-top: -5px;
+  }
+  p.row2{
+    margin-left: -24px;
+  }
+  p.row3{
+    margin-left: -24px;
+  }
+	#primary-menu {
+		margin-left: 25px;
+	}
+	#primary-menu ul li > a, #primary-menu ul ul li > a {
+		color: #444;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#slide-6-layer-1 img {
+		margin-left: 600px;
+	}
 }
