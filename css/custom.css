@@ -23,10 +23,10 @@ a #logo-words{
   color: white;
 }
 a:hover #logo-words{
-  color: #D2312B;
+  color: #BC091F;
 }
 .red {
-    color: #D2312B;
+    color: #BC091F;
 }
 
 #header.transparent-header.full-header #header-wrap {
@@ -55,7 +55,7 @@ a:hover #logo-words{
 }
 
 [class^="icon-"], [class*=" icon-"], [class^="icon-line-"], [class*=" icon-line-"], [class^="icon-line2-"], [class*=" icon-line2-"], .side-header #primary-menu ul > li.sub-menu > a:after {
-	color: #D2312B;
+	color: #BC091F;
 	font-size: 24px;
 }
 

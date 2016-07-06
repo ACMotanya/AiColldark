@@ -179,7 +179,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 #primary-menu.dark ul li .mega-menu-content {
 	background-color: #333;
 	border-color: #3F3F3F;
-	border-top-color: #D2312B;
+	border-top-color: #BC091F;
 }
 
 .dark.overlay-menu #primary-menu:not(.not-dark) ul,
@@ -190,7 +190,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 .dark #primary-menu:not(.not-dark) ul li .mega-menu-content.style-2,
 #primary-menu.dark ul li .mega-menu-content.style-2 {
 	border-color: transparent;
-	border-top-color: #D2312B;
+	border-top-color: #BC091F;
 }
 
 .dark #primary-menu:not(.not-dark) ul ul li,
@@ -258,7 +258,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 .dark #top-cart .top-cart-content {
 	background-color: #333;
 	border-color: #3F3F3F;
-	border-top-color: #D2312B;
+	border-top-color: #BC091F;
 }
 
 .dark .top-cart-title { border-bottom-color: #3F3F3F; }
@@ -267,7 +267,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 
 .dark .top-cart-item-image { border-color: #444; }
 
-.dark .top-cart-item-image:hover { border-color: #D2312B; }
+.dark .top-cart-item-image:hover { border-color: #BC091F; }
 
 .dark .top-cart-item-desc a:hover { color: #D2312B !important; }
 
@@ -450,8 +450,8 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 
 .dark .post-timeline .entry:hover .entry-timeline,
 .dark .post-timeline .entry:hover .timeline-divider {
-	border-color: #D2312B;
-	color: #D2312B;
+	border-color: #BC091F;
+	color: #BC091F;
 }
 
 .dark .spost,
@@ -549,7 +549,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 
 .dark .cart-product-thumbnail img { border-color: rgba(0,0,0,0.2); }
 
-.dark .cart-product-thumbnail img:hover { border-color: #D2312B; }
+.dark .cart-product-thumbnail img:hover { border-color: #BC091F; }
 
 .dark .cart-product-name a,
 .dark .product-name a { color: #EEE; }
@@ -576,7 +576,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 .dark .button-dark:not(.button-border),
 .dark .button:hover { background-color: rgba(0,0,0,0.3); }
 
-.dark .button-dark:hover { background-color: #D2312B; }
+.dark .button-dark:hover { background-color: #BC091F; }
 
 .dark .button-light:not(.button-border):hover { background-color: #282828; }
 
@@ -655,10 +655,10 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 .dark .fbox-effect .fbox-icon i:hover,
 .dark .fbox-effect:hover .fbox-icon i { background-color: #494949; }
 
-.dark .fbox-effect.fbox-dark .fbox-icon i:after { box-shadow: 0 0 0 2px #D2312B; }
+.dark .fbox-effect.fbox-dark .fbox-icon i:after { box-shadow: 0 0 0 2px #BC091F; }
 
 .dark .fbox-effect.fbox-dark .fbox-icon i:hover,
-.dark .fbox-effect.fbox-dark:hover .fbox-icon i { background-color: #D2312B; }
+.dark .fbox-effect.fbox-dark:hover .fbox-icon i { background-color: #BC091F; }
 
 .dark .fbox-border.fbox-effect .fbox-icon i:hover,
 .dark .fbox-border.fbox-effect:hover .fbox-icon i { box-shadow: 0 0 0 1px #494949; }
@@ -666,9 +666,9 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 .dark .fbox-border.fbox-effect .fbox-icon i:after { background-color: #494949; }
 
 .dark .fbox-border.fbox-effect.fbox-dark .fbox-icon i:hover,
-.dark .fbox-border.fbox-effect.fbox-dark:hover .fbox-icon i { box-shadow: 0 0 0 1px #D2312B; }
+.dark .fbox-border.fbox-effect.fbox-dark:hover .fbox-icon i { box-shadow: 0 0 0 1px #BC091F; }
 
-.dark .fbox-border.fbox-effect.fbox-dark .fbox-icon i:after { background-color: #D2312B; }
+.dark .fbox-border.fbox-effect.fbox-dark .fbox-icon i:after { background-color: #BC091F; }
 
 .dark .process-steps li .i-bordered { background-color: #494949; }
 
@@ -702,7 +702,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 
 .dark .i-rounded:hover,
 .dark .i-circled:hover {
-	background-color: #D2312B;
+	background-color: #BC091F;
 	color: #FFF;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 	box-shadow: 0 0 0 rgba(0,0,0,0.2);
@@ -795,7 +795,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 
 .dark ul.tab-nav.tab-nav2 li a { background-color: rgba(0,0,0,0.2); }
 
-.dark ul.tab-nav.tab-nav2 li.ui-state-active a { background-color: #D2312B; }
+.dark ul.tab-nav.tab-nav2 li.ui-state-active a { background-color: #BC091F; }
 
 .dark .tabs-bordered .tab-container { border-color: #494949; }
 
@@ -1070,7 +1070,7 @@ body #side-panel.dark #side-panel-trigger-close a {
 
 .dark .tagcloud a:hover {
 	border-color: transparent !important;
-	background-color: #D2312B;
+	background-color: #BC091F;
 	color: #FFF !important;
 }
 
