@@ -7,13 +7,13 @@
 # [Color codes]
 
 # Blue (active links) #00b9ee
-# DarkLighter (text,heading-titles) #fff
+# DarkLighter (text,heading-titles) #666
 # Gray (text footer} #adadad
 # LightGray BG #f5f5f5
 # Dark BG #282828
 # Dark BG (footer) #282828
 # Dark BG (footer) #313131
-# Gray (hover) #F00
+# Gray (hover) #D2312B
 # Blue (hover) #00b9ee
 # Borders #ededed
 
@@ -117,16 +117,16 @@ body, html {
 }
 
 body {
-    font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+    font-family: Raleway, 'Open Sans', sans-serif;
     text-shadow: none;
-    background: #282828;
+    background: #fff;
 }
 a, a:active, a:focus, a:hover, a:visited, input, select, textarea {
     outline: 0;
     text-decoration: none;
 }
 a {
-    color: #fff;
+    color: #666;
     text-decoration: none;
 }
 ul {
@@ -150,11 +150,11 @@ p {
 }
 ::-moz-selection {
     color: #fff;
-    background: #fff;
+    background: #666;
 }
 ::selection {
     color: #fff;
-    background: #fff;
+    background: #666;
 }
 .contain {
     width: 100%;
@@ -162,10 +162,9 @@ p {
     height: auto;
 }
 .intro-text {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 300;
     line-height: 1.6;
-    color: #fff;
 }
 .list-item li {
     margin-left: 40px;
@@ -198,13 +197,16 @@ h6 {
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
-    color: #fff;
+    color: #666;
 }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-weight: 300;
 }
 .uppercase {
     text-transform: uppercase;
+}
+.lowercase {
+    text-transform: lowercase;
 }
 .tt-normal {
     text-transform: none!important;
@@ -214,26 +216,26 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     color: #fff!important;
 }
 .dark-grey {
-    color: #fff!important;
+    color: #666!important;
 }
 .medium-grey {
-    color: #F00!important;
+    color: #D2312B!important;
 }
 .blue {
     color: #00b9ee!important;
 }
 /* --Background Color Classes-- */
 .bg-white {
-    background: #282828;
+    background: #fff;
 }
 .bg-grey {
     background: #ccc;
 }
 .bg-medium-grey {
-    background: #F00;
+    background: #D2312B;
 }
 .bg-dark-grey {
-    background: #fff;
+    background: #666;
 }
 .bg-black {
     background:#000;
@@ -298,7 +300,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 }
 #section-page-header small {
     padding: 10px 0 0;
-	letter-spacing:1px; /* New */
+	  letter-spacing:1px; /* New */
 }
 #section-page-header-large {
     padding: 0;
@@ -382,7 +384,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 12px;
     color: #fff;
     border-radius: 0;
-	letter-spacing:1.5px; /* New */
+  	letter-spacing:1.5px; /* New */
 }
 .breadcrumb a:hover, .breadcrumb-alt a:hover, .breadcrumb-large a:hover {
     color: #ccc;
@@ -436,78 +438,78 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 .page-section-top {
     padding: 130px 0;
     margin-top: -130px;
-    background: #282828;
+    background: #fff;
 }
 .page-section-top-alt {
     padding: 130px 0 0;
     margin-top: -130px;
-    background: #282828;
+    background: #fff;
 }
 .page-section-top-alt-02 {
     padding: 0 0 130px;
-    background: #282828;
+    background: #fff;
 }
 .page-section-top-alt-np {
-    padding: -10px 0 0;
-    background: #282828;
+    padding: 10px 0 0;
+    background: #fff;
 }
 .page-section {
     padding: 100px 0;
     margin-top: 0;
-    background: #282828;
+    background: #fff;
 }
 .page-section-alt {
     padding: 100px 0 0;
     margin-top: 0;
-    background: #282828;
+    background: #fff;
 }
 @media screen and (max-width:767px) {
 .page-section-top, .page-section-top-alt {
     margin-top: 0;
     padding: 60px 0 0;
-    background: #282828;
+    background: #fff;
 }
 .page-section-top-alt-02 {
     padding: 60px 0;
-    background: #282828;
+    background: #fff;
 }
 .page-section-top-alt-np {
     padding: 60px 0 0;
-    background: #282828;
+    background: #fff;
 }
 .page-section {
     padding: 60px 0;
     margin-top: 0;
-    background: #282828;
+    background: #fff;
 }
 .page-section-alt {
     padding: 60px 0 0;
     margin-top: 0;
-    background: #282828;}
+    background: #fff;}
 }
 @media screen and (min-width:768px) and (max-width:991px) {
 .page-section-top, .page-section-top-alt {
     margin-top: 0;
     padding: 80px 0 0;
-    background: #282828;
+    background: #fff;
 }
 .page-section-top-alt-02 {
     padding: 80px 0;
-    background: #282828;
+    background: #fff;
 }
 .page-section-top-alt-np {
     padding: 80px 0 0;
-    background: #282828;
+    background: #fff;
 }
 .page-section {
     padding: 80px 0;
     margin-top: 0;
-    background: #282828;
+    background: #fff;
 }
 .page-section-alt {
     padding: 80px 0 0;
     margin-top: 0;
-    background: #282828;}
+    background: #fff;}
 }
 
 .has-border {
@@ -516,16 +518,21 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 .has-border-top {
     background: url(../img/site/dashed-border.png) top left repeat-x!important;
 }
+
 /* ==============================================================
    6. Section Title
    ============================================================== */
+
 .section-title {
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     text-transform: uppercase;
-    color: #fff;
-    font-size: 115px;
+    color: #D2312B;
+    font-size: 25px;
+    position: relative;
+    z-index : 1;
 }
+
 .section-title-npb {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -534,30 +541,30 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 .section-title-nmt {
     margin-top: 0;
     margin-bottom: 10px;
-    color: #fff;
+    color: #666;
 }
 .section-title-nmb {
     margin-top: 20px;
     margin-bottom: 0;
-    color: #fff;
+    color: #666;
 }
 .section-title-minus-10 {
     margin-top: 10px;
     margin-bottom: 10px;
-    color: #fff;
+    color: #666;
 }
 .section-title-no-marg {
     margin-top: 0;
     margin-bottom: 0;
     text-transform: uppercase;
-    color: #fff;
+    color: #666;
 }
 .section-title-line {
     margin-top: 20px;
     margin-bottom: 0;
     text-transform: uppercase;
-    color: #fff;
-	letter-spacing:1.5px; /* New */
+    color: #666;
+  	letter-spacing:1.5px; /* New */
 }
 .section-title-line:after {
     content: "\e60e";
@@ -649,7 +656,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 }
 .welcome-box-list li:before {
     font-family: xlntcode;
-    content: "\e400";
+    content: "\e600";
     margin-left: -3px;
     padding-right: 3px;
 }
@@ -663,7 +670,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     color: #fff;
 }
 #about b, #about-mp b {
-    font-weight: 600;
+    font-weight: 400;
 }
 .column-slider {
     margin: 20px auto 0;
@@ -673,18 +680,18 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 }
 .person {
     margin: 0 auto 1px;
-    max-height: 400px!important;
+    max-height: 600px!important;
 }
 .person-mp {
     margin: 0 auto;
-    max-height: 400px!important;
+    max-height: 600px!important;
 }
 /* ==============================================================
    9. Section Services
    ============================================================== */
 #services h3, #services-mp h3 {
     font-size: 20px;
-	letter-spacing:1.5px; /* New */
+  	letter-spacing:1.5px; /* New */
 }
 .services-mp {
     background: #282828;
@@ -693,27 +700,27 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     color: #fff;
 }
 #services a {
-    color: #fff;
-    background: #282828;
+    color: #666;
+    background: #fff;
 }
 #services a:hover {
-    background: #282828;
+    background: #fff;
 }
 #services .nav-tabs {
     border-bottom: none;
     text-align: center;
-    background: #282828;
+    background: #fff;
 }
 #services .nav-tabs>li {
     width: 20%;
     display: inline-block;
     float: left;
-    background: #282828;
+    background: #fff;
 }
 #services .nav-tabs>li>a {
     line-height: 1.42857143;
     border: none;
-    color: #F00;
+    color: #D2312B;
     padding: 0;
 }
 #services .nav-tabs>li>a:hover {
@@ -749,7 +756,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     transition: all .3s ease;
 }
 #services li a:hover h3 {
-    color: #F00;
+    color: #D2312B;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     transition: all .3s ease;
@@ -762,12 +769,12 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     margin-top: 25px;
 }
 #services .intro-text b {
-    font-weight: 600;
+    font-weight: 400;
     padding: 0!important;
 }
 @media screen and (max-width:480px) {
     #services .nav-tabs>li {
-    background: #282828;
+    background: #fff;
     width: 30%;
     display: inline-block;
     float: none;
@@ -781,7 +788,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 }
 @media screen and (min-width:481px) and (max-width:767px) {
 #services .nav-tabs>li {
-    background: #282828;
+    background: #fff;
     width: 25%;
     display: inline-block;
     float: none;
@@ -807,7 +814,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     margin-top: 40px;
 	margin-bottom:20px;
     color: #adadad;
-	letter-spacing:1.5px; /* New */
+  	letter-spacing:1.5px; /* New */
 }
 @media screen and (max-width:767px) {
     #services-bottom {
@@ -900,7 +907,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     border-left: 1px solid #ededed;
     border-right: 1px solid #ededed;
     border-bottom: 1px solid #ededed;
-    color: #fff;
+    color: #666;
 }
 .nav-tabs {
     border-bottom: 1px solid #ededed;
@@ -924,12 +931,12 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     border-right-color: #ededed;
     border-left-color: transparent;
     border-top-color: transparent;
-    background: #282828;
+    background: #fff;
    /*border-bottom: none!important;*/
-    color: #F00;
+    color: #D2312B;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-    color: #fff;
+    color: #666;
     background-color: #fff;
     border: 1px solid #ededed;
     border-top-color: transparent;
@@ -944,7 +951,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     border: none;
     box-shadow: none;
     padding: 10px 0;
-    color: #fff;
+    color: #666;
 }
 #our-skills .panel-title, #our-skills-mp .panel-title, #section-accordion-mp .panel-title {
     font-size: 16px;
@@ -963,7 +970,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     border-bottom: 1px solid #ededed;
 }
 #our-skills .panel-default>.panel-heading, #our-skills-mp .panel-default>.panel-heading, #section-accordion-mp .panel-default>.panel-heading {
-    color: #fff;
+    color: #666;
     background-color: #fff;
     border: none;
     padding: 9px 0;
@@ -975,8 +982,8 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     border-top: none;
     padding-left: 0;
     padding-right: 0;
-	font-weight:300;
-	color:#fff;
+	font-weight: 300;
+	color:#666;
 	line-height:1.6;
 }
 #our-skills #accordion .icon-minus, #our-skills #accordion .icon-plus, #our-skills-mp #accordion .icon-minus, #our-skills-mp #accordion .icon-plus, #section-accordion-mp #accordion .icon-minus, #section-accordion-mp #accordion .icon-plus {
@@ -986,7 +993,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
    11. Skills Showcase
    ============================================================== */
 #our-skills {
-    color: #fff;
+    color: #666;
 }
 .section-accordion-mp, .section-our-skills-mp {
     background: #282828;
@@ -995,7 +1002,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     color: #fff;
 }
 .skills-box {
-    background: #282828;
+    background: #fff;
     padding-left: 0;
     padding-right: 0;
 }
@@ -1120,8 +1127,8 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
    12. Team
    ============================================================== */
 #section-team {
-    background: #282828;
-    color: #fff;
+    background: #fff;
+    color: #666;
     margin-bottom: 0;
     position: relative;
 }
@@ -1141,15 +1148,15 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     margin-right: 10px;
 }
 #section-team .phone-n-mail a, #section-team .team-social-icons a {
-    color: #fff;
+    color: #666;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
-	font-weight:300;
+	font-weight: 300;
 }
 #section-team .phone-n-mail a:hover, #section-team .team-social-icons a:hover {
-    color: #F00;
+    color: #D2312B;
 }
 #section-team .team-social-icons .fa {
     margin-right: 10px;
@@ -1158,13 +1165,13 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     padding-right: 5px;
 }
 #section-team-mp {
-    background: #282828;
-    color: #fff;
+    background: #fff;
+    color: #666;
     position: relative;
 }
 #section-team-mp .team-member img {
     margin: 0 auto -15px;
-    max-height: 400px!important;
+    max-height: 600px!important;
 }
 #section-team-mp .team-member-info h3 small {
     display: block;
@@ -1179,7 +1186,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 	margin-right: 10px;
 }
 #section-team-mp .phone-n-mail a, #section-team-mp .team-social-icons a {
-    color: #fff;
+    color: #666;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     -o-transition: all .3s;
@@ -1187,7 +1194,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 	font-weight:300;
 }
 #section-team-mp .phone-n-mail a:hover, #section-team-mp .team-social-icons a:hover {
-    color: #F00;
+    color: #D2312B;
 }
 #section-team-mp .team-social-icons .fa {
     margin-right: 10px;
@@ -1222,10 +1229,9 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
    13. Portfolio
    ============================================================== */
 #portfolio, #portfolio-mp {
-    background: #282828;
-    color: #fff;
+    background: #fff;
+    color: #666;
     text-align: center;
-    margin-top: -20px
 }
 .portfolio-mp {
     background: #282828;
@@ -1234,7 +1240,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     color: #fff;
 }
 #portfolio-mp-2 {
-    background: #282828;
+    background: #fff;
     color: #333;
     text-align: center;
 }
@@ -1242,7 +1248,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
    14. Why Us
    ============================================================== */
 #why-us, #why-us-mp {
-    color: #fff;
+    color: #666;
 	position:relative;
 	background:#fff;
 	width:100%;
@@ -1262,12 +1268,12 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 .counter {
     padding: 15px 0 0;
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 68px!important;
     height: 68px!important;
 }
 .counter-text {
-    font-weight: 600;
+    font-weight: 400;
     font-size: normal;
     padding-top: 10px;
     text-transform: uppercase;
@@ -1287,12 +1293,12 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    color: #fff;
+    color: #666;
 }
 #section-testimonial-alt {
     padding: 20px 0 135px;
     margin-top: 0;
-    color: #fff;
+    color: #666;
 }
 .section-testimonial-mp {
     background: #282828;
@@ -1344,17 +1350,17 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
    ============================================================== */
 #work-process {
     background: url(../img/site/dashed-border.png) top left repeat-x #fbfbfb!important;
-    color: #fff;
+    color: #666;
     text-align: center;
 }
 #work-process h3 {
     text-transform: uppercase;
-    color: #fff;
+    color: #666;
 }
 #work-process h4 {
     text-transform: uppercase;
     padding-top: 10px;
-    color: #fff;
+    color: #666;
 }
 .process-box .main-icon-medium, .process-box .main-icon-medium-alt {
     margin: 0 auto;
@@ -1393,7 +1399,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     margin: 0;
     padding: 20px 0;
     width: 100%;
-    color: #fff;
+    color: #666;
 }
 #section-subscribe .fa-envelope-o {
     padding-left: 8px;
@@ -1429,7 +1435,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 }
 form label.error {
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 400;
     padding: .5em 1em;
     border-radius: 0;
     display: inline-block;
@@ -1450,7 +1456,7 @@ form label.error {
    24. Project Page
    ============================================================== */
 #project-mp {
-    color: #fff;
+    color: #666;
 }
 #project-mp h3, #project-mp h4 {
     text-transform: uppercase;
@@ -1486,7 +1492,7 @@ form label.error {
     font-weight: 300;
     padding-top: 20px;
     text-transform: uppercase;
-    color: #fff;
+    color: #666;
 }
 @media screen and (max-width:991px) {
 .project-right-side h3: first-of-type {
@@ -1500,15 +1506,15 @@ form label.error {
    25. Recent Work
    ============================================================== */
 #recent_work {
-    background: #282828;
-    color: #fff;
+    background: #fff;
+    color: #666;
     text-align: center;
 }
 /* ==============================================================
    26. Clients
    ============================================================== */
 #clients-mp {
-    color: #fff;
+    color: #666;
 }
 .clients-mp {
     background: #282828;
@@ -1519,7 +1525,7 @@ form label.error {
 #clients-mp h3 {
     font-weight: 300;
     text-transform: uppercase;
-    color: #fff;
+    color: #666;
 }
 .clients-logo-bgr {
     background: #ededed;
@@ -1540,7 +1546,7 @@ form label.error {
     background-size: cover;
     min-height: 100%;
     height: 100%;
-    color: #fff;
+    color: #666;
     position: relative;
 }
 .under-construction {
@@ -1556,7 +1562,7 @@ form label.error {
 }
 .error-page .container, .under-construction .container {
     background-color: rgba(255, 255, 255, .7);
-    color: #fff;
+    color: #666;
     width: auto;
     margin: 0 15px;
     padding: 30px 30px 40px;
@@ -1566,7 +1572,7 @@ form label.error {
     font-size: 42px;
     font-weight: 300;
     text-transform: uppercase;
-    color: #fff;
+    color: #666;
 }
 .error-page h3, .under-construction h3 {
     font-weight: 300;
@@ -1605,7 +1611,7 @@ form label.error {
    28. Progressbars
    ============================================================== */
 #section-bars-mp {
-    background: #282828;
+    background: #fff;
     position: relative;
 }
 .bars-page-mp {
@@ -1615,7 +1621,7 @@ form label.error {
     color: #fff;
 }
 #section-bars-mp-2 {
-    background: #282828;
+    background: #fff;
     position: relative;
 }
 #section-bars-dark {
@@ -1701,12 +1707,12 @@ form label.error {
     background-size: cover;
     min-height: 100%;
     height: 100%;
-    color: #fff;
+    color: #666;
     position: relative;
 }
 .coming-soon .container {
     background-color: rgba(255, 255, 255, .7);
-    color: #fff;
+    color: #666;
     width: auto!important;
     padding: 30px 30px 60px;
     border: 1px solid #ededed;
@@ -1736,7 +1742,7 @@ form label.error {
     font-weight: 300;
 }
 .countdown p {
-    color: #fff;
+    color: #666;
 }
 .countdown li {
     display: inline-block;
@@ -1744,14 +1750,14 @@ form label.error {
 }
 .countdown li span {
     font-size: 56px;
-    color: #fff;
+    color: #666;
 }
 .countdown li.seperator {
     font-size: 56px;
     line-height: 69px;
     vertical-align: top!important;
     padding: 0 16px;
-    color: #fff;
+    color: #666;
 }
 .countdown li p {
     font-size: 16px;
@@ -1762,22 +1768,26 @@ form label.error {
 }
 .coming-soon .fa-envelope-o {
     padding-left: 8px;
-    color: #fff;
+    color: #666;
 }
 /* ==============================================================
    32. App landing
    ============================================================== */
 #section-app-landing {
-    padding: 100px 0 50px;
-    color: #fff;
+    padding: 50px 0 50px;
+    color: #666;
 }
 #section-app-landing h1 {
     margin-top: 0;
+    font-size: 22px;
+    position: relative;
+    color: red;
 }
+
 #section-app-landing li {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
-    line-height: 2;
+    line-height: 1.75;
 }
 .app-landing-slider {
     margin: 0 auto;
@@ -1795,15 +1805,15 @@ form label.error {
     margin-left: -4px;
 }
 .app-landing-list li:hover {
-    color: #F30;
+    color: #ccc;
     cursor: default;
     padding-left: 8px;
 }
 .app-heading h1 {
     text-transform: uppercase;
     font-weight: 300;
-    font-size: 80px;
-    color: #fff;
+    font-size: 60px;
+    color: #666;
 }
 .app-download-heading h2 {
     text-transform: uppercase;
@@ -1880,7 +1890,7 @@ form label.error {
     text-transform: uppercase;
 }
 .app-box {
-    background: #282828;
+    background: #fff;
     padding-left: 0;
     padding-right: 0;
 }
@@ -1964,7 +1974,7 @@ form label.error {
    33.2 App Footer
    ============================================================== */
 #app-landing-footer {
-    background: #282828;
+    background: #fff;
     margin: 0;
     padding: 22px 0 12px;
 }
@@ -2004,7 +2014,7 @@ form label.error {
 }
 
 .app-copy-footer p, .app-copy-footer a  {
-    color: #fff;
+    color: #666;
     margin-top: 9px;
     font-size: 14px;
     -webkit-transition: all .3s ease;
@@ -2012,7 +2022,7 @@ form label.error {
     transition: all .3s ease;
 }
 .app-copy-footer a:hover {
-    color: #F00;
+    color: #D2312B;
 }
 /* ==============================================================
    34. App Showcase OP
@@ -2026,7 +2036,7 @@ form label.error {
     text-transform: uppercase;
 }
 #op-app-showcase h2, #op-app-showcase h3, #op-app-showcase h4, #op-app-showcase p {
-    color: #fff;
+    color: #666;
 }
 .op-app-box {
     background: #fbfbfb;
@@ -2290,14 +2300,14 @@ form label.error {
     transition: all .3s ease;
 }
 .contact-details li a:hover {
-    color: #fff;
+    color: #666;
 }
 /* ==============================================================
    36 Contact MP
    ============================================================== */
 #contact-mp {
-    background: #282828;
-    color: #fff;
+    background:rgba(255, 255, 255, 0);
+    color: #282828;
     text-align: center;
     position: relative;
 }
@@ -2324,36 +2334,36 @@ form label.error {
     margin-top: 40px;
 }
 #contact-mp .form-control {
-    color: #fff;
+    color: #666;
     font-weight: 300;
 }
 #contact-mp form .formerize-placeholder {
-    color: #fff!important;
+    color: #666!important;
     font-weight: 300;
     text-transform: uppercase;
 }
 #contact-mp form ::-webkit-input-placeholder {
-    color: #fff!important;
+    color: #666!important;
     font-weight: 300;
     text-transform: uppercase;
 }
 #contact-mp form :-moz-placeholder {
-    color: #fff!important;
+    color: #666!important;
     font-weight: 300;
     text-transform: uppercase;
 }
 #contact-mp form ::-moz-placeholder {
-    color: #fff!important;
+    color: #666!important;
     font-weight: 300;
     text-transform: uppercase;
 }
 #contact-mp form :-ms-input-placeholder {
-    color: #fff!important;
+    color: #666!important;
     font-weight: 300;
     text-transform: uppercase;
 }
 #contact-mp .input-lg {
-    background: #282828;
+    background: #fff;
     border: 1px solid #ddd;
 }
 /* ==============================================================
@@ -2362,7 +2372,7 @@ form label.error {
 footer {
     background: #313131;
     font-size: 14px;
-    margin-top: -120px;
+    margin-top: -120px;  /* testing */
 }
 #map {
     position: relative;
@@ -2378,7 +2388,7 @@ footer {
     height: 0;
 }
 .open-map {
-    height: 375px;
+    height: 375px; /* testing */
 }
 #map-btn1-contain {
     width: 100%;
@@ -2416,11 +2426,11 @@ a.gmap-btn .fa-angle-down {
     opacity: 1;
 }
 #map #google-map {
-    height: 460px;
+    height: 380px;
     display: block;
-    position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 90%;
+    margin: auto;
     z-index: 1;
     -webkit-transition: all .7s;
     -moz-transition: all .7s;
@@ -2494,7 +2504,7 @@ a.gmap-btn .fa-angle-down {
     display: inline-block;
     width: 100%;
     padding: 20px 0px;
-	  border-bottom: 1px dashed #fff;
+	  border-bottom: 1px dashed #666;
 	  line-height:1.6;
 }
 .f-widget-posts li:last-child {
@@ -2518,7 +2528,7 @@ a.gmap-btn .fa-angle-down {
 }
 .f-widget-post-text span {
     display: block;
-    color: #F00;
+    color: #D2312B;
 }
 .f-widget-post-text small {
     font-size:80%;
@@ -2541,7 +2551,7 @@ a.gmap-btn .fa-angle-down {
     color:#adadad;
 }
 .f-widget-list li a:hover {
-    color:#fff;
+    color:#666;
 	-webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     transition: all .3s ease;
@@ -2565,7 +2575,7 @@ a.gmap-btn .fa-angle-down {
     display: inline-block;
     width: 100%;
     padding: 20px 0px;
-	border-bottom: 1px dashed #fff;
+	border-bottom: 1px dashed #666;
 	line-height:1.6;
 }
 .f-widget-tweets li:last-child {
@@ -2586,11 +2596,11 @@ a.gmap-btn .fa-angle-down {
     transition: all .3s ease;
 }
 .f-widget-tweets-text a:hover {
-    color:#fff;
+    color:#666;
 }
 .f-widget-tweets-text span {
     display: block;
-    color: #F00;
+    color: #D2312B;
 }
 .f-widget-tweets-text small {
     font-size:80%;
@@ -2616,7 +2626,7 @@ a.gmap-btn .fa-angle-down {
     margin-bottom: 10px;
 }
 .copy-footer a, .copy-footer p {
-    color: #F00;
+    color: #D2312B;
     margin-top: 9px;
     font-size: 14px;
     -webkit-transition: all .3s ease;
@@ -2624,7 +2634,7 @@ a.gmap-btn .fa-angle-down {
     transition: all .3s ease;
 }
 .copy-footer a:hover {
-    color: #fff;
+    color: #666;
 }
 /* ==============================================================
    40. Revolution Slider
@@ -2646,12 +2656,12 @@ a.gmap-btn .fa-angle-down {
 }
 .tp-caption.xc_title_font {
     position: absolute;
-    color: #fff;
+    color: #666;
     text-shadow: none;
     font-weight: 300;
     font-size: 30px;
     line-height: 30px;
-    font-family: 'Source Sans Pro', "Open Sans", sans-serif;
+    font-family: Raleway, "Open Sans", sans-serif;
     border-style: none;
     background-color: transparent;
     letter-spacing: 1px;
@@ -2659,12 +2669,12 @@ a.gmap-btn .fa-angle-down {
 }
 .tp-caption.xc_title_font_02 {
     position: absolute;
-    color: #fff;
+    color: #666;
     text-shadow: none;
     font-weight: 300;
     font-size: 48px;
     line-height: 52px;
-    font-family: 'Source Sans Pro', "Open Sans", sans-serif;
+    font-family: Raleway, "Open Sans", sans-serif;
     border-style: none;
     background-color: transparent;
     letter-spacing: 1px;
@@ -2672,12 +2682,12 @@ a.gmap-btn .fa-angle-down {
 }
 .tp-caption.p_bigger_font {
     position: absolute;
-    color: #fff;
+    color: #666;
     text-shadow: none;
     font-weight: 300;
     font-size: 22px;
     line-height: 24px;
-    font-family: 'Source Sans Pro', "Open Sans", sans-serif;
+    font-family: Raleway, "Open Sans", sans-serif;
     border-style: none;
     background-color: transparent;
     letter-spacing: 1px;
@@ -2685,24 +2695,24 @@ a.gmap-btn .fa-angle-down {
 }
 .tp-caption.p_normal_font {
     position: absolute;
-    color: #fff;
+    color: #666;
     text-shadow: none;
     font-weight: 300;
     font-size: 20px;
     line-height: 26px;
-    font-family: 'Source Sans Pro', "Open Sans", sans-serif;
+    font-family: Raleway, "Open Sans", sans-serif;
     border-style: none;
     background-color: transparent;
     letter-spacing: 0;
 }
 .tp-caption.p_bold_bigger_font {
     position: absolute;
-    color: #fff;
+    color: #666;
     text-shadow: none;
     font-weight: 300;
     font-size: 20px;
     line-height: 26px;
-    font-family: 'Source Sans Pro', "Open Sans", sans-serif;
+    font-family: Raleway, "Open Sans", sans-serif;
     border-style: none;
     background-color: transparent;
     letter-spacing: 1px;
@@ -2712,11 +2722,11 @@ a.gmap-btn .fa-angle-down {
     background: 0 0;
 }
 .tp-social-icon {
-    color: #fff;
+    color: #666;
     font-size: 24px;
 }
 .tp-social-icon a:hover {
-    color: #F00;
+    color: #D2312B;
 }
 .tp-btn {
     padding: 12px 16px;
@@ -2726,7 +2736,7 @@ a.gmap-btn .fa-angle-down {
     -webkit-border-radius: 0;
     -o-border-radius: 0;
     -moz-border-radius: 0;
-    background: #fff;
+    background: #666;
     color: #fff;
     border: 1px solid #333;
     -webkit-transition: .3s ease;
@@ -2735,7 +2745,7 @@ a.gmap-btn .fa-angle-down {
     text-transform: uppercase;
     font-weight: 300;
     margin: 0 2px;
-	letter-spacing:1.2px; /* New */
+  	letter-spacing:1.2px; /* New */
 }
 .tp-btn.active, .tp-btn:active, .tp-btn:focus, .tp-btn:hover {
     color: #fff;
@@ -2752,8 +2762,8 @@ a.gmap-btn .fa-angle-down {
     -moz-border-radius: 0;
     background: 0 0;
     color: #333;
-    border: 1px solid #fff!important;
-    border-color: #fff!important;
+    border: 1px solid #666!important;
+    border-color: #666!important;
     -webkit-transition: .3s ease;
     -moz-transition: .3s ease;
     transition: .3s ease;
@@ -2763,7 +2773,7 @@ a.gmap-btn .fa-angle-down {
 }
 .tp-btn-dark-outline.active, .tp-btn-dark-outline:active, .tp-btn-dark-outline:focus, .tp-btn-dark-outline:hover {
     color: #fff;
-    background-color: #fff;
+    background-color: #666;
     border: 1px solid #333!important;
 }
 /* ==============================================================
@@ -2884,8 +2894,8 @@ a.gmap-btn .fa-angle-down {
    44. Typography Demo
    ============================================================== */
 #section-typography {
-    background: #282828;
-    color: #fff;
+    background: #fff;
+    color: #666;
 }
 .row-bgr {
     background: url(../img/site/dashed-border.png) bottom repeat-x;
@@ -2939,7 +2949,7 @@ a.gmap-btn .fa-angle-down {
     padding-bottom: 0;
     text-transform: uppercase;
     font-weight: 300;
-	  letter-spacing:.6px;
+  	letter-spacing:.6px;
 }
 .list-unstyled li {
     margin-top: 0;
@@ -2958,7 +2968,7 @@ a.gmap-btn .fa-angle-down {
 }
 .list-unstyled li {
     padding: 10px 13px;
-    background: #282828;
+    background: #fff;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
@@ -2967,7 +2977,7 @@ a.gmap-btn .fa-angle-down {
 .list-unstyled li:not(.mega-menu-title):before {
     content: "\f105";
 	font-family: 'FontAwesome';
-	color:#F00;
+	color:#D2312B;
 	margin-right:8px
 }
 .mega-menu .mega-menu-content {
@@ -2998,7 +3008,7 @@ a.gmap-btn .fa-angle-down {
     padding-right: 13px;
     text-transform: uppercase;
     font-weight: 300;
-	  letter-spacing:.6px;
+  	letter-spacing:.6px;
     font-size: 13px;
     margin-top: 2px;}
 }
@@ -3009,7 +3019,7 @@ a.gmap-btn .fa-angle-down {
     max-height: auto;
 }
 .navbar {
-    background: rgba(255, 255, 255, 1);
+    background: rgba(0, 255, 255, 1);
 }
 .navbar-nav {
     margin: 0 -15px;
@@ -3024,11 +3034,11 @@ a.gmap-btn .fa-angle-down {
     height: 60px;
 }
 .navbar .navbar-nav li a {
-    font-size: 13px;
-    color: #fff;
-    font-weight: 600;
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;
     background: 0 0;
-	  letter-spacing:1px;
+	  letter-spacing: 2.75px;
     text-transform: uppercase;
     -webkit-transition: color .3s ease;
     -moz-transition: color .3s ease;
@@ -3036,10 +3046,10 @@ a.gmap-btn .fa-angle-down {
     transition: color .3s ease;
 }
 .dropdown-toggle:hover {
-    color: #F30!important;
+    color: #D2312B!important;
 }
 .navbar .navbar-nav li:not(.dropdown-single) a:hover {
-    color: #F30;
+    color: #D2312B;
     background-color: transparent;
 }
 .navbar .navbar-nav li:not(.dropdown-single).active a {
@@ -3054,13 +3064,15 @@ a.gmap-btn .fa-angle-down {
     text-decoration: none;
 }
 .navbar .navbar-toggle {
-    border-color: #fff;
+    border: 2px solid #666;
+    border-radius: 3px;
+
 }
 .navbar .navbar-toggle:focus, .navbar .navbar-toggle:hover {
     background-color: rgba(255, 255, 255, 1);
 }
 .navbar .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #666;
 }
 .navbar .navbar-collapse, .navbar-default .navbar-form {
     border-color: #ededed;
@@ -3092,7 +3104,7 @@ a.gmap-btn .fa-angle-down {
   border-color: #ededed;
 }
 .navbar-nav>li>.dropdown-menu {
-    background: #282828;
+    background: #fff;
     border: 1px solid #ededed;
 }
 .dropdown-single>a:after, .dropdown-submenu>a:after, .dropdown>a:after {
@@ -3270,7 +3282,7 @@ select.sel-list-tpl {
    49.1 Button Default
    ============================================================== */
 .btn-default {
-    color: #fff;
+    color: #666;
     background-color: #fff;
     border-color: #ddd;
 }
@@ -3288,7 +3300,7 @@ select.sel-list-tpl {
 }
 .btn-default .badge {
     color: #fff;
-    background-color: #fff;
+    background-color: #666;
 }
 /* ==============================================================
    49.2 Button Primary
@@ -3344,11 +3356,11 @@ select.sel-list-tpl {
 .btn-outline-dark {
     color: #333;
     background-color: transparent;
-    border-color: #fff;
+    border-color: #666;
 }
 .btn-outline-dark.active, .btn-outline-dark:active, .btn-outline-dark:focus, .btn-outline-dark:hover, .open>.dropdown-toggle.btn-outline-dark {
     color: #fff;
-    background-color: #fff;
+    background-color: #666;
     border-color: #333;
 }
 .btn-outline-dark.active, .btn-outline-dark:active, .open>.dropdown-toggle.btn-outline-dark {
@@ -3360,7 +3372,7 @@ select.sel-list-tpl {
 }
 .btn-outline-dark .badge {
     color: #fff;
-    background-color: #fff;
+    background-color: #666;
 }
 /* ==============================================================
    49.5 Button Outline Grey
@@ -3372,27 +3384,27 @@ select.sel-list-tpl {
     border-color: #adadad;
 }
 .btn-outline-grey.active, .btn-outline-grey:active, .btn-outline-grey:focus, .btn-outline-grey:hover, .open>.dropdown-toggle.btn-outline-grey {
-    color: #fff;
+    color: #666;
     background-color: transparent;
-    border-color: #fff;
+    border-color: #666;
 }
 .btn-outline-grey.active, .btn-outline-grey:active, .open>.dropdown-toggle.btn-outline-grey {
     background-image: none;
 }
 .btn-outline-grey.disabled, .btn-outline-grey.disabled:hover, .btn-outline-grey[disabled], .btn-outline-grey[disabled].active, .btn-outline-grey[disabled]:active, .btn-outline-grey[disabled]:focus, .btn-outline-grey[disabled]:hover, .outline-grey.disabled.active, .outline-grey.disabled:active, .outline-grey.disabled:focus, fieldset[disabled] .btn-outline-grey, fieldset[disabled] .btn-outline-grey.active, fieldset[disabled] .btn-outline-grey:active, fieldset[disabled] .btn-outline-grey:focus, fieldset[disabled] .btn-outline-grey:hover {
     background-color: transparent;
-    border-color: #fff;
+    border-color: #666;
 }
 .btn-outline-grey .badge {
     color: #fff;
-    background-color: #fff;
+    background-color: #666;
 }
 /* ==============================================================
    49.6 Button Dark
    ============================================================== */
 .btn-dark {
     color: #fff;
-    background-color: #fff;
+    background-color: #666;
     border-color: #333;
 }
 .btn-dark.active, .btn-dark:active, .btn-dark:focus, .btn-dark:hover, .open>.dropdown-toggle.btn-dark {
@@ -3446,7 +3458,7 @@ select.sel-list-tpl {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    color: #F00;
+    color: #D2312B;
     background: url(../img/ico/icon-large.png);
     margin: 0 auto 10px;
     webkit-transition: all .3s ease;
@@ -3459,7 +3471,7 @@ select.sel-list-tpl {
     -ms-transform: rotateZ(360deg);
     -o-transform: rotateZ(360deg);
     transform: rotateZ(360deg);
-    color: #F00;
+    color: #D2312B;
 }
 .main-icon .et, .main-icon .fa, .main-icon .xc {
     line-height: 90px;
@@ -3479,7 +3491,7 @@ select.sel-list-tpl {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    color: #F00;
+    color: #D2312B;
     background: url(../img/ico/icon-medium.png);
     webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -3491,7 +3503,7 @@ select.sel-list-tpl {
     -ms-transform: rotateZ(360deg);
     -o-transform: rotateZ(360deg);
     transform: rotateZ(360deg);
-    color: #F00;
+    color: #D2312B;
 }
 .main-icon .et, .main-icon .fa, .main-icon .xc {
     line-height: 70px;
@@ -3510,7 +3522,7 @@ select.sel-list-tpl {
     webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    color: #F00;
+    color: #D2312B;
     background: url(../img/ico/icon-small.png);
     webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -3522,7 +3534,7 @@ select.sel-list-tpl {
     -ms-transform: rotateZ(360deg);
     -o-transform: rotateZ(360deg);
     transform: rotateZ(360deg);
-    color: #F00;
+    color: #D2312B;
 }
 .main-icon .et, .main-icon .fa, .main-icon .xc {
     line-height: 40px;
@@ -3540,7 +3552,7 @@ select.sel-list-tpl {
     height: 70px;
     text-align: center;
 	position:relative;
-    color: #F00;
+    color: #D2312B;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -3555,7 +3567,7 @@ select.sel-list-tpl {
     -ms-transform: rotateZ(360deg);
     -o-transform: rotateZ(360deg);
     transform: rotateZ(360deg);
-    color: #F00;
+    color: #D2312B;
 }
 .main-icon-medium .fa, ..main-icon-medium .xc {
     line-height: 70px;
@@ -3585,7 +3597,7 @@ select.sel-list-tpl {
     -ms-transform: rotateZ(360deg);
     -o-transform: rotateZ(360deg);
     transform: rotateZ(360deg);
-    color: #F00;
+    color: #D2312B;
 }
 .main-icon-medium-alt .fa, .main-icon-medium .xc {
     line-height: 70px;
@@ -3656,7 +3668,7 @@ select.sel-list-tpl {
     transition: all .3s ease;
 }
 .social li a:hover {
-    color: #fff;
+    color: #666;
 }
 /* ==============================================================
    54. Portfolio Hover
@@ -3699,8 +3711,8 @@ select.sel-list-tpl {
     transform: scale(1);
 }
 .xc-item.square.effect .mask {
-    background: #282828;
-    background: rgba(255, 0, 0, .8);
+    background: #fff;
+    background: rgba(255, 255, 255, .8);
     visibility: hidden;
     opacity: 0;
     -webkit-transition: all .4s ease;
@@ -3793,37 +3805,37 @@ select.sel-list-tpl {
 #portfolio .container.masonry-boxed, #portfolio-mp .container.masonry-boxed {
     padding-left: 0px!important;
     padding-right: 0px!important;
-	border: none!important;
+	  border: none!important;
 }
 .creations-filter li {
     display:inline-block;
     margin-bottom: 25px;
 }
 .creations-filter a.current {
-    color: #000;
+    color: #D2312B;
     border-bottom: 1px solid #ddd;
     webkit-transition: all .8s ease;
     -moz-transition: all .8s ease;
     transition: all .8s ease;
-	letter-spacing:1.5px; /* New */
+	  letter-spacing:1.5px; /* New */
 }
 .filter-button {
-    font-size: 18px;
-    color: #fff;
-	font-weight: 300;
+    font-size: 20px;
+    color: #666;
+	  font-weight: 300;
     margin-left: 14px;
     margin-right: 14px;
     text-transform: uppercase;
     webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     transition: all .3s ease;
-	letter-spacing:1.5px; /* New */
+	  letter-spacing:1.5px; /* New */
 }
 .creations-filter li:before {
     content: "/\00a0";
     margin:0px;
     color: #ddd;
-	font-size: 18px;
+	  font-size: 20px;
 }
 .creations-filter li:first-child:before {
     content: "";
@@ -3837,7 +3849,7 @@ select.sel-list-tpl {
 .creations-filter li:before {
     content: "/\00a0";
     margin:0px;
-	font-size: 12px;
+	  font-size: 12px;
     color: #ddd;}
 }
 @media screen and (min-width: 481px) and (max-width: 767px) {
@@ -3849,11 +3861,11 @@ select.sel-list-tpl {
 .creations-filter li:before {
     content: "/\00a0";
     margin:0px;
-	font-size: 16px;
+	  font-size: 16px;
     color: #ddd;}
 }
 .filter-button:hover {
-    color: #F00;
+    color: #D2312B;
 }
 .creations-container {
     position: relative;
@@ -3899,8 +3911,8 @@ select.sel-list-tpl {
     position: relative;
     left: 50%;
     top: 50%;
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     margin: -30px 0 0 -30px;
     z-index: 100001;
 }
@@ -3922,11 +3934,11 @@ select.sel-list-tpl {
 }
 #loader {
     border: 1px solid transparent;
-    border-top-color: #F30;
+    border-top-color: #D2312B;
 }
 #loader:after, #loader:before {
     border: 1px solid transparent;
-    border-top-color: #F30;
+    border-top-color: #D2312B;
 }
 #loader, #loader:after, #loader:before {
     border-radius: 50%}
@@ -3966,7 +3978,7 @@ select.sel-list-tpl {
     margin-bottom: 40px;
 }
 .demo-title h4 a {
-    color: #fff;
+    color: #666;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     -o-transition: all .3s;
@@ -4044,6 +4056,7 @@ select.sel-list-tpl {
 	.multi-columns-row .col-md-3:nth-child(4n + 5) { clear: left; }
 	.multi-columns-row .col-md-2:nth-child(6n + 7) { clear: left; }
 	.multi-columns-row .col-md-1:nth-child(12n + 13) { clear: left; }
+
 }
 @media (min-width: 1200px) {
 	/* reset previous grid */
@@ -4086,59 +4099,77 @@ select.sel-list-tpl {
    61. AiC Specfic styling
    ============================================================== */
 
-#logo-words{
-  margin-left: -16px;
-  margin-top: 8px;
-  line-height: 105%;
-  color: #fff;
-  font-weight: 600;
+#logo-words p{
+  font-weight: 500;
+  font-size: 16px;
 }
-#logo-words a:hover {
-  color: #F00;
+
+p.row1{
+  margin-left: -11px;
+  margin-top: 9px;
+  letter-spacing: .2px;
 }
-.aic-box {
-    float: left;
-    width: 42px;
-    height: 42px;
-    margin: -32px 5px 0px 35px;
-    border-width: 1px;
-    border-style: none;
-    border-color: rgba(0,0,0,.2);
-    background-color:#666;
-    border-radius: 0px 5px 5px 0px;
+p.row2{
+  margin-left: -11px;
+  margin-top: -19px;
+  letter-spacing: -.2px;
 }
-.aic-text {
-   font-size: 60px;
-   font-family: "Times New Roman", serif;
-   letter-spacing: -15px;
-   margin-top: 20px;
+p.row3{
+  margin-left: -11px;
+  margin-top: -19px;
+  letter-spacing: .2px;
 }
-.little-let {
-    font-family: sans-serif;
-    font-size:45px;
-    margin-left:10px;
-    color: #fff
+
+a:hover #logo-words{
+  color: #D2312B;
 }
-.aic-logo{
-    display: inline-block;
+
+img.nav-img {
+  margin-top: 15px;
+  border-radius: 10%;
+  padding-top: 0 !important;
 }
-.red{
-    color: #F00;
+.red {
+    color: #D2312B;
 }
 .black{
   color: #000;
 }
 
 @media screen and (max-width:991px) {
-.aic-box {
-  margin: -32px 5px 0px 35px;
-}
-.aic-text{
-  margin-top: 13px;
-}
-#logo-words{
-  margin-top: 12px;
-}
+/*  .aic-box {
+    margin: -32px 5px 0px 35px;
+  }
+  .aic-text{
+    margin-top: 13px;
+  } */
+  #logo-words{
+    margin-top: 1px;
+  }
+  p.row1{
+    margin-left: -24px;
+    margin-top: -5px;
+  }
+  p.row2{
+    margin-left: -24px;
+  }
+  p.row3{
+    margin-left: -24px;
+  }
+  #map{
+    margin-top: 10px;
+  }
+  ul#myDiv.nav.navbar-nav.navbar-right {
+    top: 0px;
+    left: 0px;
+  }
+  img.nav-img {
+    /*margin-top: 0px; */
+    margin: auto;
+  }
+  div#logo-words {
+    display: none;
+  }
 }
 
 .app-landing-list {
@@ -4150,24 +4181,25 @@ select.sel-list-tpl {
     column-gap: 20px;
 }
 
-.index-bg{
-  background-color: #fff;
-  opacity: 0.6;
-}
-
 .project-caption {
   margin: -50px 0 0 40px;
 }
 
-.profile-page a{
-  font-size: 115px;
-}
-.profile-page a:hover{
-  color: red;
-  padding-left: -18px;
-  font-size: 125px;
+.justify{
+  text-align: justify;
 }
 
-.creations-filter li a {
-  font-size: 45px;
+.letterspace {
+  letter-spacing: 1px;
+}
+
+.firstcharacter {
+  float: left;
+  color: #D2312B;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-family: Georgia;
 }
