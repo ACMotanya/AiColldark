@@ -4100,8 +4100,16 @@ select.sel-list-tpl {
    ============================================================== */
 
 #logo-words p{
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
+  margin-left: -100px;
+  margin-top: 12px;
+}
+#logo-words {
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: -100px;
+  margin-top: 12px;
 }
 
 p.row1{
