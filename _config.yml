@@ -1,9 +1,10 @@
 # Site settings
 title: Ai Collaborative
-email: your-email@domain.com
-baseurl: "/AiColldark"
-url: https://acmotanya.github.io
-description: "Architecture & Interior Design Collaborative"
+email: info@aicoll.com
+#baseurl: "/AiColldark"
+url: https://www.aicoll.com
+description: "Ai Collaborative, Inc. is an award winning, multi-disciplinary architectural firm offering a full range of design services including commercial interior design and consistently ranks at the top of architectural and interior design firms in the Tampa Bay Area."
+
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -16,15 +17,10 @@ footer: Ai Collaborative
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: https://twitter.com/SBootstrap
+    url: https://twitter.com/
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+    url: https://www.facebook.com/aicollaborative/
+
 
 # Build settings
 markdown: kramdown

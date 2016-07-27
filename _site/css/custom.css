@@ -1,3 +1,17 @@
+#logo {
+	margin-right: 0px;
+  margin-top: 19px;
+}
+#logo img {
+  border-radius: 3px;
+}
+#header.full-header #logo {
+  padding-right: 0px;
+  margin-right: 3px;
+}
+#header, #header-wrap, #logo img {
+  height: 60px;
+}
 
 #logo-words p{
   font-weight: 700;
@@ -61,6 +75,9 @@ a:hover #logo-words{
 }
 
 @media screen and (max-width:991px) {
+  #logo img {
+    margin-top: 10px;
+  }
   #logo-words{
     margin-top: 1px;
   }

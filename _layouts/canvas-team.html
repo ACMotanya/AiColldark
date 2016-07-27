@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+    {% include head_canvas.html %}
+
+    <style>
+    #logo img {
+      border-radius: 3px;
+    }
+    #header.full-header #logo {
+      padding-right: 0px;
+      margin-right: 3px;
+    }
+
+    .navbar-brand {
+      margin-left: -120px;
+    }
+
+    #logo-words p{
+      font-weight: 700;
+      font-size: 17px;
+      margin-bottom: 21px;
+    }
+    p.row1{
+      margin-left: -13px;
+      margin-top: 3px;
+      letter-spacing: .2px;
+    }
+    p.row2{
+      margin-left: -11px;
+      margin-top: -19px;
+      letter-spacing: -.2px;
+    }
+    p.row3{
+      margin-left: -11px;
+      margin-top: -19px;
+      letter-spacing: .2px;
+    }
+    #header.transparent-header.full-header #header-wrap {
+    	border-bottom: transparent;
+    }
+
+    #header.full-header, {
+    	border-bottom-color: transparent;;
+    }
+
+    #header.transparent-header.full-header #primary-menu > ul, #header.transparent-header.full-header #logo {
+    	border-right-color: transparent;;
+    }
+
+
+    @media screen and (max-width:991px) {
+      #logo img {
+        margin-top: 10px;
+      }
+      #logo-words{
+        margin-top: 1px;
+      }
+      a.navbar-brand {
+        display: none;
+      }
+    	p.row1{
+        margin-left: -24px;
+        margin-top: -5px;
+      }
+      p.row2{
+        margin-left: -24px;
+      }
+      p.row3{
+        margin-left: -24px;
+      }
+    	#primary-menu {
+    		margin-left: 25px;
+    	}
+    	#primary-menu ul li > a, #primary-menu ul ul li > a {
+    		color: #444;
+    	}
+    }
+    </style>
+    <body class="stretched">
+
+
+    	<!-- Document Wrapper
+    	============================================= -->
+    	<div id="wrapper" class="clearfix">
+
+        <!-- Header
+        ============================================= -->
+        <header id="header" class="full-header">
+
+          <div id="header-wrap">
+
+            <div class="container clearfix">
+
+              <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+              <!-- Logo
+              ============================================= -->
+              <div id="logo">
+                <a href="index.html" class="standard-logo" data-dark-logo="{{ site.baseurl }}/img/aic-copy.png"><img src="{{ site.baseurl }}/img/aic-copy.png" alt="Canvas Logo"></a>
+                <a href="index.html" class="retina-logo" data-dark-logo="{{ site.baseurl }}/img/aic-copy.png"><img src="{{ site.baseurl }}/img/aic-copy.png" alt="Canvas Logo"></a>
+              </div><!-- #logo end -->
+
+              
+
+              <!-- Primary Navigation
+              ============================================= -->
+              <nav id="primary-menu">
+                <ul style="color: grey;">
+                  <li><a href="{{ site.baseurl }}/"><div>HOME</div></a></li>
+                  <li><a><div>PROFILE &#9660;</div></a>
+                    <ul>
+                      <li><a href="{{ site.baseurl }}/about"><div>ABOUT</div></a></li>
+                      <li><a href="{{ site.baseurl }}/services"><div>SERVICES</div></a></li>
+                      <li><a href="{{ site.baseurl }}/comingsoon"><div>PRINCIPALS</div></a></li>
+                    </ul>
+                  </li>
+                  <li><a href="{{ site.baseurl }}/comingsoon1"><div>PORTFOLIO</div></a></li>
+                  <li><a href="{{ site.baseurl }}/comingsoon2"><div>AWARDS</div></a></li>
+                  <li><a href="{{ site.baseurl }}/contact"}><div>CONTACT</div></a></li>
+                </ul>
+              </nav><!-- #primary-menu end -->
+
+            </div>
+
+          </div>
+
+        </header><!-- #header end -->
+
+        {{ content }}
+        </div>
+        <!-- External JavaScripts
+        ============================================= -->
+        <script type="text/javascript" src="{{ "/js2/jquery.js" | prepend: site.baseurl }}"></script>
+        <script type="text/javascript" src="{{ "/js2/plugins.js" | prepend: site.baseurl }}"></script>
+
+        <!-- Footer Scripts
+        ============================================= -->
+        <script type="text/javascript" src="{{ "/js2/functions.js" | prepend: site.baseurl }}"></script>
+
+        <!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
+        <script type="text/javascript" src="{{ "/include/rs-plugin/js/jquery.themepunch.tools.min.js" | prepend: site.baseurl }}"></script>
+        <script type="text/javascript" src="{{ "/include/rs-plugin/js/jquery.themepunch.revolution.min.js" | prepend: site.baseurl }}"></script>
+
+        <script type="text/javascript" src="{{ "/include/rs-plugin/js/extensions/revolution.extension.carousel.min.js" | prepend: site.baseurl }}"></script>
+        <script type="text/javascript" src="{{ "/include/rs-plugin/js/extensions/revolution.extension.actions.min.js" | prepend: site.baseurl }}"></script>
+        <script type="text/javascript" src="{{ "/include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js" | prepend: site.baseurl }}"></script>
+        <script type="text/javascript" src="{{ "/include/rs-plugin/js/extensions/revolution.extension.navigation.min.js" | prepend: site.baseurl }}"></script>
+
+        <script type="text/javascript">
+      		var tpj = jQuery;
+      		var revapi289;
+      		tpj(document).ready(function() {
+      			if (tpj("#rev_slider_289_1").revolution == undefined) {
+      				revslider_showDoubleJqueryError("#rev_slider_289_1");
+      			} else {
+      				revapi289 = tpj("#rev_slider_289_1").show().revolution({
+      					sliderType: "carousel",
+      					jsFileLocation: "include/rs-plugin/js/",
+      					sliderLayout: "auto",
+      					dottedOverlay: "none",
+      					delay: 9000,
+      					navigation: {
+      						onHoverStop: "off",
+      					},
+      					carousel: {
+      						horizontal_align: "center",
+      						vertical_align: "center",
+      						fadeout: "on",
+      						vary_fade: "off",
+      						maxVisibleItems: 3,
+      						infinity: "on",
+      						space: 0,
+      						stretch: "off"
+      					},
+      					responsiveLevels: [1240, 1024, 778, 480],
+      					visibilityLevels: [1240, 1024, 778, 480],
+      					gridwidth: [1000, 800, 700, 480],
+      					gridheight: [800, 700, 600, 500],
+      					lazyType: "none",
+      					shadow: 0,
+      					spinner: "off",
+      					stopLoop: "on",
+      					stopAfterLoops: 0,
+      					stopAtSlide: 1,
+      					shuffle: "off",
+      					autoHeight: "off",
+      					disableProgressBar: "on",
+      					hideThumbsOnMobile: "off",
+      					hideSliderAtLimit: 0,
+      					hideCaptionAtLimit: 0,
+      					hideAllCaptionAtLilmit: 0,
+      					debugMode: false,
+      					fallbacks: {
+      						simplifyAll: "off",
+      						nextSlideOnWindowFocus: "off",
+      						disableFocusListener: false,
+      					}
+      				});
+      			}
+      		}); /*ready*/
+      	</script>
+
+    </body>
+</html>

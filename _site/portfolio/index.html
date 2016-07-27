@@ -1,750 +1,296 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<html lang="en" class="no-js">
     <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="Ai Collaborative, Inc. is an award winning, multi-disciplinary architectural firm offering a full range of design services including commercial interior design and consistently ranks at the top of architectural and interior design firms in the Tampa Bay Area.">
+    <meta name="author" content="Ai Collaborative">
+    <title>Ai Collaborative</title>
+    <link rel="canonical" href="https://www.aicoll.com/portfolio/">
 
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="Ace Motanya" content="AiColl" />
+    <link rel="stylesheet" href="/assets/css/jquery.fancybox.css?v=2.1.5">
+    <link rel="stylesheet" href="/assets/css/helpers/jquery.fancybox-buttons.css?v=1.0.5">
+    <link rel="stylesheet" href="/assets/css/helpers/jquery.fancybox-thumbs.css?v=1.0.7s">
+    <link rel="stylesheet" href="/assets/css/flexslider.css">
+    <link rel="stylesheet" href="/assets/css/animations.min.css">
+    <link rel="stylesheet" href="/assets/css/carousel.css">
+    <link rel="stylesheet" href="/assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+    <link rel="stylesheet" href="/assets/css/vertical-xc.min.css">
 
-	<!-- Stylesheets
-	============================================= -->
-	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="/AiColldark/css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="/AiColldark/style.css" type="text/css" />
-	<link rel="stylesheet" href="/AiColldark/css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="/AiColldark/css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="/AiColldark/css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="/AiColldark/css/magnific-popup.css" type="text/css" />
-	<link rel="stylesheet" href="/AiColldark/css/responsive.css" type="text/css" />
+    <!-- Custom Fonts -->
+<!--    <link href="http://fonts.googleapis.com/css?family=Montserrat:300italic,400italic,400,300,600,700,800" rel="stylesheet" type="text/css"> -->
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
-
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!--[if lt IE 9]>
-		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-	<![endif]-->
-
-	<!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
-	<link rel="stylesheet" type="text/css" href="/AiColldark/include/rs-plugin/css/settings.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="/AiColldark/include/rs-plugin/css/layers.css" />
-	<link rel="stylesheet" type="text/css" href="/AiColldark/include/rs-plugin/css/navigation.css" />
-	<link rel="stylesheet" href="/AiColldark/css/custom.css" type="text/css" />
-
-	<!-- Document Title
-	============================================= -->
-	<title>Ai Collaborative</title>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
-<style>
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+      <div id="loader-wrapper">
+        <div id="loader"></div>
+      </div>
 
-	.demos-filter {
-		margin: 0;
-		text-align: right;
-	}
+    <!-- Navigation -->
+   <nav class="navbar mega-menu navbar-fixed-top nav-height" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            <a class="navbar-brand page-scroll" href="/">
 
-	.demos-filter li {
-		list-style: none;
-		margin: 10px 0px;
-	}
-
-	.demos-filter li a {
-		display: block;
-		border: 0;
-		text-transform: uppercase;
-		letter-spacing: 1px;
-		color: #444;
-	}
-
-	.demos-filter li a:hover,
-	.demos-filter li.activeFilter a { color: #1ABC9C; }
-
-	@media (max-width: 991px) {
-		.demos-filter { text-align: center; }
-
-		.demos-filter li {
-			float: left;
-			width: 33.3%;
-			padding: 0 20px;
-		}
-	}
-
-	@media (max-width: 767px) {
-		.demos-filter li { width: 50%; }
-	}
-
-	.revo-slider-emphasis-text {
-		font-size: 64px;
-		font-weight: 700;
-		letter-spacing: -1px;
-		font-family: 'Raleway', sans-serif;
-		padding: 15px 20px;
-		border-top: 2px solid #FFF;
-		border-bottom: 2px solid #FFF;
-	}
-
-	.revo-slider-desc-text {
-		font-size: 20px;
-		font-family: 'Lato', sans-serif;
-		width: 650px;
-		text-align: center;
-		line-height: 1.5;
-	}
-
-	.revo-slider-caps-text {
-		font-size: 16px;
-		font-weight: 400;
-		letter-spacing: 3px;
-		font-family: 'Raleway', sans-serif;
-	}
-	.tp-video-play-button { display: none !important; }
-
-	.tp-caption { white-space: nowrap; }
-
-</style>
-
-    <body class="stretched">
-
-    	<!-- Document Wrapper
-    	============================================= -->
-    	<div id="wrapper" class="clearfix">
-
-
-      <!-- Slider
-============================================= -->
-
-<section id="slider" class="revslider-wrap clearfix">
-
-	<div id="rev_slider_48_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="photography1" style="background-color:transparent;padding:0px;">
-		<!-- START REVOLUTION SLIDER 5.0.7 fullscreen mode -->
-			<div id="rev_slider_48_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.0.7">
-				<ul>	<!-- SLIDE  -->
-
-          <!-- SLIDE  -->
-          <li data-index="rs-164" data-transition="slideoververtical" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1500"  data-thumb="include/rs-plugin/demos/assets/images/photography2-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Portfolio" data-description="">
-            <!-- MAIN IMAGE -->
-            <img src="/AiColldark/include/rs-plugin/demos/assets/images/photography4.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-            <!-- LAYERS -->
-
-            <!-- LAYER NR. 1 -->
-            <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme"
-               id="slide-166-layer-8"
-               data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-               data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
-                    data-width="full"
-              data-height="full"
-              data-whitespace="nowrap"
-              data-transform_idle="o:1;"
-
-               data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeOut;"
-               data-transform_out="auto:auto;s:1000;"
-               data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-              data-start="1500"
-              data-basealign="slide"
-              data-responsive_offset="on"
-
-
-              style="z-index: 5;background-color:rgba(0, 0, 0, 0.50);border-color:rgba(0, 0, 0, 1.00);">
+            <!--  <div class="aic-logo">
+                  <div class="aic-text"><span class="red">A</span>i</div>
+                  <div class="aic-box"><span class="little-let black">c</span></div>
+              </div> -->
+              <img src="/img/aic-copy.png" class="nav-img" alt="Ai Collaborative">
+            </a>
+            <div id="logo-words" class="left uppercase">
+              <a href="/">
+                Architecture + <br />
+                Interior Design <br />
+                Collaborative<br />
+              </a>
             </div>
 
-            <!-- LAYER NR. 1 -->
-            <div class="tp-caption Photography-Subline   tp-resizeme"
-               id="slide-164-layer-4"
-               data-x="['center','center','center','center']" data-hoffset="['-8','40','0','0']"
-               data-y="['middle','middle','middle','middle']" data-voffset="['-161','-161','-187','-197']"
-                    data-fontsize="['20','20','20','17']"
-              data-lineheight="['30','30','30','26']"
-              data-width="none"
-              data-height="none"
-              data-whitespace="nowrap"
-              data-transform_idle="o:1;"
-
-               data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-               data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-               data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-               data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-              data-start="500"
-              data-splitin="none"
-              data-splitout="none"
-              data-responsive_offset="on"
-
-
-              style="z-index: 5; white-space: nowrap;"><span style="color: #fff;">SOME OF OUR BEST WORK</span>
             </div>
-
-            <!-- LAYER NR. 2 -->
-            <div class="tp-caption Photography-ImageHover   tp-resizeme"
-               id="slide-164-layer-7"
-               data-x="['left','left','center','center']" data-hoffset="['460','400','-160','-80']"
-               data-y="['top','top','top','top']" data-voffset="['330','280','350','200']"
-                    data-width="none"
-              data-height="none"
-              data-whitespace="nowrap"
-              data-transform_idle="o:1;"
-                data-transform_hover="o:0.5;sX:0.8;sY:0.8;rX:0;rY:0;rZ:0;z:0;s:1000;e:Power3.easeInOut;"
-                data-style_hover="c:rgba(255, 255, 255, 1.00);cursor:pointer;"
-
-               data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;"
-               data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-               data-mask_in="x:0px;y:0px;"
-               data-mask_out="x:inherit;y:inherit;"
-              data-start="750"
-              data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-165","delay":""}]'
-              data-responsive_offset="on"
-
-
-              style="z-index: 6; line-height: 22px;font-family:Arial;"><img src="/AiColldark/img/project-1/thumb1.jpg" alt="" width="300" height="200" data-ww="['250px','150px','150px','150px']" data-hh="['167px','100px','100px','100px']" data-no-retina>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+               <ul class="nav navbar-nav navbar-right">
+                 <li><a class="page-scroll" href="/profile">Profile</a></li>
+                 <li><a class="page-scroll" href="/portfolio">Portfolio</a></li>
+                 <li><a class="page-scroll" href="/awards">Awards</a></li>
+                 <li><a class="page-scroll" href="/contact">Contact</a></li>
+               </ul><!--/.nav navbar-nav navbar-right-->
             </div>
-
-            <!-- LAYER NR. 3 -->
-            <div class="tp-caption Photography-ImageHover   tp-resizeme"
-               id="slide-164-layer-8"
-               data-x="['left','left','center','center']" data-hoffset="['720','560','0','80']"
-               data-y="['top','top','top','top']" data-voffset="['330','280','350','200']"
-                    data-width="none"
-              data-height="none"
-              data-whitespace="nowrap"
-              data-transform_idle="o:1;"
-                data-transform_hover="o:0.5;sX:0.8;sY:0.8;rX:0;rY:0;rZ:0;z:0;s:1000;e:Power3.easeInOut;"
-                data-style_hover="c:rgba(255, 255, 255, 1.00);cursor:pointer;"
-
-               data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;"
-               data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-               data-mask_in="x:0px;y:0px;"
-               data-mask_out="x:inherit;y:inherit;"
-              data-start="850"
-              data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-166","delay":""}]'
-              data-responsive_offset="on"
-
-
-              style="z-index: 7; line-height: 22px;font-family:Arial;"><img src="/AiColldark/img/project-1/thumb5.jpg" alt="" width="300" height="200" data-ww="['250px','150px','150px','150px']" data-hh="['167px','100px','100px','100px']" data-no-retina>
-            </div>
-
-            <!-- LAYER NR. 4 -->
-            <div class="tp-caption Photography-ImageHover   tp-resizeme"
-               id="slide-164-layer-9"
-               data-x="['left','left','center','center']" data-hoffset="['980','720','160','-80']"
-               data-y="['top','top','top','top']" data-voffset="['330','280','350','310']"
-                    data-width="none"
-              data-height="none"
-              data-whitespace="nowrap"
-              data-transform_idle="o:1;"
-                data-transform_hover="o:0.5;sX:0.8;sY:0.8;rX:0;rY:0;rZ:0;z:0;s:1000;e:Power3.easeInOut;"
-                data-style_hover="c:rgba(255, 255, 255, 1.00);cursor:pointer;"
-
-               data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;"
-               data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-               data-mask_in="x:0px;y:0px;"
-               data-mask_out="x:inherit;y:inherit;"
-              data-start="950"
-              data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-167","delay":""}]'
-              data-responsive_offset="on"
-
-
-              style="z-index: 8; line-height: 22px;font-family:Arial;"><img src="/AiColldark/img/project-1/thumb3.jpg" alt="" width="300" height="200" data-ww="['250px','150px','150px','150px']" data-hh="['167px','100px','100px','100px']" data-no-retina>
-            </div>
-
-            <!-- LAYER NR. 5 -->
-            <div class="tp-caption Photography-ImageHover   tp-resizeme"
-               id="slide-164-layer-10"
-               data-x="['left','left','center','center']" data-hoffset="['460','400','-160','80']"
-               data-y="['top','top','top','top']" data-voffset="['507','390','460','310']"
-                    data-width="none"
-              data-height="none"
-              data-whitespace="nowrap"
-              data-transform_idle="o:1;"
-                data-transform_hover="o:0.5;sX:0.8;sY:0.8;rX:0;rY:0;rZ:0;z:0;s:1000;e:Power3.easeInOut;"
-                data-style_hover="c:rgba(255, 255, 255, 1.00);cursor:pointer;"
-
-               data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;"
-               data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-               data-mask_in="x:0px;y:0px;"
-               data-mask_out="x:inherit;y:inherit;"
-              data-start="1050"
-              data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-168","delay":""}]'
-              data-responsive_offset="on"
-
-
-              style="z-index: 9; line-height: 22px;font-family:Arial;"><img src="/AiColldark/img/project-1/thumb2.jpg" alt="" width="300" height="200" data-ww="['250px','150px','150px','150px']" data-hh="['167px','100px','100px','100px']" data-no-retina>
-            </div>
-
-            <!-- LAYER NR. 6 -->
-            <div class="tp-caption Photography-ImageHover   tp-resizeme"
-               id="slide-164-layer-11"
-               data-x="['left','left','center','center']" data-hoffset="['720','560','0','-80']"
-               data-y="['top','top','top','top']" data-voffset="['507','390','460','420']"
-                    data-width="none"
-              data-height="none"
-              data-whitespace="nowrap"
-              data-transform_idle="o:1;"
-                data-transform_hover="o:0.5;sX:0.8;sY:0.8;rX:0;rY:0;rZ:0;z:0;s:1000;e:Power3.easeInOut;"
-                data-style_hover="c:rgba(255, 255, 255, 1.00);cursor:pointer;"
-
-               data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;"
-               data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-               data-mask_in="x:0px;y:0px;"
-               data-mask_out="x:inherit;y:inherit;"
-              data-start="1150"
-              data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-169","delay":""}]'
-              data-responsive_offset="on"
-
-
-              style="z-index: 10; line-height: 22px;font-family:Arial;"><img src="/AiColldark/img/project-1/thumb4.jpg" alt="" width="300" height="200" data-ww="['250px','150px','150px','150px']" data-hh="['167px','100px','100px','100px']" data-no-retina>
-            </div>
-
-            <!-- LAYER NR. 7 -->
-            <div class="tp-caption Photography-ImageHover   tp-resizeme"
-               id="slide-164-layer-12"
-               data-x="['left','left','center','center']" data-hoffset="['980','720','160','80']"
-               data-y="['top','top','top','top']" data-voffset="['507','390','460','420']"
-                    data-width="none"
-              data-height="none"
-              data-whitespace="nowrap"
-              data-transform_idle="o:1;"
-                data-transform_hover="o:0.5;sX:0.8;sY:0.8;rX:0;rY:0;rZ:0;z:0;s:1000;e:Power3.easeInOut;"
-                data-style_hover="c:rgba(255, 255, 255, 1.00);cursor:pointer;"
-
-               data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;"
-               data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-               data-mask_in="x:0px;y:0px;"
-               data-mask_out="x:inherit;y:inherit;"
-              data-start="1250"
-              data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-170","delay":""}]'
-              data-responsive_offset="on"
-
-
-              style="z-index: 11; line-height: 22px;font-family:Arial;"><img src="/AiColldark/img/project-1/thumb6.jpg" alt="" width="300" height="200" data-ww="['250px','150px','150px','150px']" data-hh="['167px','100px','100px','100px']" data-no-retina>
-            </div>
-          </li>
-
-          <!-- SLIDE  -->
-          <li data-index="rs-164" data-transition="slideoververtical" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1500"  data-thumb="include/rs-plugin/demos/assets/images/photography2-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Portfolio" data-description="">
-            <!-- MAIN IMAGE -->
-            <img src="/AiColldark/include/rs-plugin/demos/assets/images/photography2.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-            <!-- LAYERS -->
-
-            <!-- LAYER NR. 1 -->
-            <div class="tp-caption Photography-Subline   tp-resizeme"
-               id="slide-164-layer-4"
-               data-x="['center','center','center','center']" data-hoffset="['-8','40','0','0']"
-               data-y="['middle','middle','middle','middle']" data-voffset="['-161','-161','-187','-197']"
-                    data-fontsize="['20','20','20','17']"
-              data-lineheight="['30','30','30','26']"
-              data-width="none"
-              data-height="none"
-              data-whitespace="nowrap"
-              data-transform_idle="o:1;"
-
-               data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-               data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-               data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-               data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-              data-start="500"
-              data-splitin="none"
-              data-splitout="none"
-              data-responsive_offset="on"
-
-
-              style="z-index: 5; white-space: nowrap;">SOME OF MY <span style="color: #fff;">BEST WORK</span>
-            </div>
-
-            <!-- LAYER NR. 2 -->
-            <div class="tp-caption Photography-ImageHover   tp-resizeme"
-               id="slide-164-layer-7"
-               data-x="['left','left','center','center']" data-hoffset="['460','400','-160','-80']"
-               data-y="['top','top','top','top']" data-voffset="['330','280','350','200']"
-              data-width="none"
-              data-height="none"
-              data-whitespace="nowrap"
-              data-transform_idle="o:1;"
-                data-transform_hover="o:0.5;sX:0.8;sY:0.8;rX:0;rY:0;rZ:0;z:0;s:1000;e:Power3.easeInOut;"
-                data-style_hover="c:rgba(255, 255, 255, 1.00);cursor:pointer;"
-
-               data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;"
-               data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-               data-mask_in="x:0px;y:0px;"
-               data-mask_out="x:inherit;y:inherit;"
-              data-start="750"
-              data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-165","delay":""}]'
-              data-responsive_offset="on"
-
-
-              style="z-index: 6; line-height: 22px;font-family:Arial;"><img src="/AiColldark/include/rs-plugin/demos/assets/images/photography_thumb1.jpg" alt="" width="300" height="200" data-ww="['250px','150px','150px','150px']" data-hh="['167px','100px','100px','100px']" data-no-retina>
-              <a class="fancybox" data-fancybox-group="University Professional Park" href="/AiColldark/img/portfolio-1/university-park/university-park-2.jpg" title=""><i class="fa fa-plus"></i></a>
-              <a class="fancybox" data-fancybox-group="University Professional Park" href="/AiColldark/img/portfolio-1/university-park/university-park-3.jpg" title="" style="display:none;"></a>
-              <a class="fancybox" data-fancybox-group="University Professional Park" href="/AiColldark/img/portfolio-1/university-park/university-park-4.jpg" title="" style="display:none;"></a>
-              <a class="fancybox" data-fancybox-group="University Professional Park" href="/AiColldark/img/portfolio-1/university-park/university-park-5.jpg" title="" style="display:none;"></a>
-              <a class="fancybox" data-fancybox-group="University Professional Park" href="/AiColldark/img/portfolio-1/university-park/university-park.jpg" title="" style="display:none;"></a>
-            </div>
-
-            <!-- LAYER NR. 3 -->
-            <div class="tp-caption Photography-ImageHover   tp-resizeme"
-               id="slide-164-layer-8"
-               data-x="['left','left','center','center']" data-hoffset="['720','560','0','80']"
-               data-y="['top','top','top','top']" data-voffset="['330','280','350','200']"
-                    data-width="none"
-              data-height="none"
-              data-whitespace="nowrap"
-              data-transform_idle="o:1;"
-                data-transform_hover="o:0.5;sX:0.8;sY:0.8;rX:0;rY:0;rZ:0;z:0;s:1000;e:Power3.easeInOut;"
-                data-style_hover="c:rgba(255, 255, 255, 1.00);cursor:pointer;"
-
-               data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;"
-               data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-               data-mask_in="x:0px;y:0px;"
-               data-mask_out="x:inherit;y:inherit;"
-              data-start="850"
-              data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-166","delay":""}]'
-              data-responsive_offset="on"
-
-
-              style="z-index: 7; line-height: 22px;font-family:Arial;"><img src="/AiColldark/include/rs-plugin/demos/assets/images/photography_thumb5.jpg" alt="" width="300" height="200" data-ww="['250px','150px','150px','150px']" data-hh="['167px','100px','100px','100px']" data-no-retina>
-            </div>
-
-            <!-- LAYER NR. 4 -->
-            <div class="tp-caption Photography-ImageHover   tp-resizeme"
-               id="slide-164-layer-9"
-               data-x="['left','left','center','center']" data-hoffset="['980','720','160','-80']"
-               data-y="['top','top','top','top']" data-voffset="['330','280','350','310']"
-                    data-width="none"
-              data-height="none"
-              data-whitespace="nowrap"
-              data-transform_idle="o:1;"
-                data-transform_hover="o:0.5;sX:0.8;sY:0.8;rX:0;rY:0;rZ:0;z:0;s:1000;e:Power3.easeInOut;"
-                data-style_hover="c:rgba(255, 255, 255, 1.00);cursor:pointer;"
-
-               data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;"
-               data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-               data-mask_in="x:0px;y:0px;"
-               data-mask_out="x:inherit;y:inherit;"
-              data-start="950"
-              data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-167","delay":""}]'
-              data-responsive_offset="on"
-
-
-              style="z-index: 8; line-height: 22px;font-family:Arial;"><img src="/AiColldark/include/rs-plugin/demos/assets/images/photography_thumb3.jpg" alt="" width="300" height="200" data-ww="['250px','150px','150px','150px']" data-hh="['167px','100px','100px','100px']" data-no-retina>
-            </div>
-
-            <!-- LAYER NR. 5 -->
-            <div class="tp-caption Photography-ImageHover   tp-resizeme"
-               id="slide-164-layer-10"
-               data-x="['left','left','center','center']" data-hoffset="['460','400','-160','80']"
-               data-y="['top','top','top','top']" data-voffset="['507','390','460','310']"
-                    data-width="none"
-              data-height="none"
-              data-whitespace="nowrap"
-              data-transform_idle="o:1;"
-                data-transform_hover="o:0.5;sX:0.8;sY:0.8;rX:0;rY:0;rZ:0;z:0;s:1000;e:Power3.easeInOut;"
-                data-style_hover="c:rgba(255, 255, 255, 1.00);cursor:pointer;"
-
-               data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;"
-               data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-               data-mask_in="x:0px;y:0px;"
-               data-mask_out="x:inherit;y:inherit;"
-              data-start="1050"
-              data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-168","delay":""}]'
-              data-responsive_offset="on"
-
-
-              style="z-index: 9; line-height: 22px;font-family:Arial;"><img src="/AiColldark/include/rs-plugin/demos/assets/images/photography_thumb2.jpg" alt="" width="300" height="200" data-ww="['250px','150px','150px','150px']" data-hh="['167px','100px','100px','100px']" data-no-retina>
-            </div>
-
-            <!-- LAYER NR. 6 -->
-            <div class="tp-caption Photography-ImageHover   tp-resizeme"
-               id="slide-164-layer-11"
-               data-x="['left','left','center','center']" data-hoffset="['720','560','0','-80']"
-               data-y="['top','top','top','top']" data-voffset="['507','390','460','420']"
-                    data-width="none"
-              data-height="none"
-              data-whitespace="nowrap"
-              data-transform_idle="o:1;"
-                data-transform_hover="o:0.5;sX:0.8;sY:0.8;rX:0;rY:0;rZ:0;z:0;s:1000;e:Power3.easeInOut;"
-                data-style_hover="c:rgba(255, 255, 255, 1.00);cursor:pointer;"
-
-               data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;"
-               data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-               data-mask_in="x:0px;y:0px;"
-               data-mask_out="x:inherit;y:inherit;"
-              data-start="1150"
-              data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-169","delay":""}]'
-              data-responsive_offset="on"
-
-
-              style="z-index: 10; line-height: 22px;font-family:Arial;"><img src="/AiColldark/include/rs-plugin/demos/assets/images/photography_thumb4.jpg" alt="" width="300" height="200" data-ww="['250px','150px','150px','150px']" data-hh="['167px','100px','100px','100px']" data-no-retina>
-            </div>
-
-            <!-- LAYER NR. 7 -->
-            <div class="tp-caption Photography-ImageHover   tp-resizeme"
-               id="slide-164-layer-12"
-               data-x="['left','left','center','center']" data-hoffset="['980','720','160','80']"
-               data-y="['top','top','top','top']" data-voffset="['507','390','460','420']"
-                    data-width="none"
-              data-height="none"
-              data-whitespace="nowrap"
-              data-transform_idle="o:1;"
-                data-transform_hover="o:0.5;sX:0.8;sY:0.8;rX:0;rY:0;rZ:0;z:0;s:1000;e:Power3.easeInOut;"
-                data-style_hover="c:rgba(255, 255, 255, 1.00);cursor:pointer;"
-
-               data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;"
-               data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-               data-mask_in="x:0px;y:0px;"
-               data-mask_out="x:inherit;y:inherit;"
-              data-start="1250"
-              data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-170","delay":""}]'
-              data-responsive_offset="on"
-
-
-              style="z-index: 11; line-height: 22px;font-family:Arial;"><img src="/AiColldark/include/rs-plugin/demos/assets/images/photography_thumb6.jpg" alt="" width="300" height="200" data-ww="['250px','150px','150px','150px']" data-hh="['167px','100px','100px','100px']" data-no-retina>
-            </div>
-          </li>
-
-				</ul>
-				<div class="tp-static-layers">
-
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption   tp-static-layer"
-						id="slide-18-layer-2"
-						data-x="['left','left','left','left']" data-hoffset="['37','37','37','37']"
-						data-y="['top','top','top','top']" data-voffset="['20','20','20','20']"
-						data-width="none"
-						data-height="none"
-						data-whitespace="nowrap"
-						data-transform_idle="o:1;"
-						data-style_hover="cursor:pointer;"
-
-						data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
-						data-transform_out="auto:auto;s:300;"
-						data-start="500"
-						data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-163","delay":""}]'
-						data-basealign="slide"
-						data-responsive_offset="off"
-						data-responsive="off"
-						data-startslide="0"
-						data-endslide="9"
-
-						style="z-index: 5;"><img src="/AiColldark/img/aic-copy.png" alt="" width="126" height="100" data-ww="['87px','87px','87px','87px']" data-hh="['60px','60px','60px','60px']" style="border-radius: 3px;" data-no-retina>
-					</div>
-
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption   tp-static-layer"
-						id="slide-18-layer-2"
-						data-x="['left','left','left','left']" data-hoffset="['0','30','30','30']"
-						data-y="['top','top','top','top']" data-voffset="['0','0','0','0']"
-						data-width="none"
-						data-height="none"
-						data-whitespace="nowrap"
-						data-transform_idle="o:1;"
-						data-style_hover="cursor:pointer;"
-
-						data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
-						data-transform_out="auto:auto;s:300;"
-						data-start="500"
-						data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-163","delay":""}]'
-						data-basealign="slide"
-						data-responsive_offset="off"
-						data-responsive="off"
-						data-startslide="0"
-						data-endslide="9"
-
-						style="z-index: 5;">
-						<a class="navbar-brand" href="/AiColldark/">
-			        <div id="logo-words" class="left uppercase" style="margin-left: 130px; color: white;">
-			          <p class="row1 page-scroll">Architecture +</p>
-			          <p class="row2">Interior Design</p>
-			          <p class="row3">Collaborative</p>
-			        </div>
-			      </a>
-					</div>
-
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption rev-burger revb-whitenoborder  tp-static-layer"
-						id="slide-18-layer-16"
-						data-x="['right','right','right','right']" data-hoffset="['14','14','14','14']"
-						data-y="['top','top','top','top']" data-voffset="['10','10','10','10']"
-						data-width="600"
-						data-height="60"
-						data-whitespace="nowrap"
-						data-transform_idle="o:1;"
-						data-style_hover="cursor:pointer;"
-
-						data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
-						data-transform_out="s:300;s:300;"
-						data-start="1000"
-						data-splitin="none"
-						data-splitout="none"
-						data-actions='[{"event":"click","action":"toggleclass","layer":"slide-18-layer-16","delay":"0","classname":"open"},{"event":"click","action":"togglelayer","layerstatus":"hidden","layer":"slide-18-layer-5","delay":""},{"event":"click","action":"togglelayer","layerstatus":"hidden","layer":"slide-18-layer-6","delay":""},{"event":"click","action":"togglelayer","layerstatus":"hidden","layer":"slide-18-layer-7","delay":""},{"event":"click","action":"togglelayer","layerstatus":"hidden","layer":"slide-18-layer-8","delay":""}]'
-						data-basealign="slide"
-						data-responsive_offset="off"
-						data-responsive="off"
-						data-startslide="0"
-						data-endslide="9"
-
-						style="z-index: 6; min-width: 60px; max-width: 60px; max-width: 60px; max-width: 60px; white-space: nowrap; font-size: px; line-height: px; font-weight: 100;padding:22px 0px 0px 14px;border-color:rgba(68, 68, 68, 1.00);border-radius:50% 50% 50% 50%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
-						<!-- Primary Navigation
-						============================================= -->
-						<nav id="primary-menu" style="color: white;">
-							<ul>
-								<li><a href="/AiColldark/"><div>HOME</div></a></li>
-								<li><a><div>PROFILE &#9660;</div></a>
-									<ul>
-										<li><a href="/AiColldark/about"><div>ABOUT</div></a></li>
-										<li><a href="/AiColldark/services"><div>SERVICES</div></a></li>
-										<li><a href="index-corporate-3.html"><div>PRINCIPALS</div></a></li>
-									</ul>
-								</li>
-								<li><a href="/AiColldark/portfolio"><div>PORTFOLIO</div></a></li>
-								<li><a href="/AiColldark/awards_canvas"><div>AWARDS</div></a></li>
-								<li><a href="/AiColldark/contact"}><div>CONTACT</div></a></li>
-							</ul>
-						</nav><!-- #primary-menu end -->
-
-					</div>
-
-					<!-- LAYER NR. 3 -->
-					<a class="tp-caption   tp-static-layer"
-			 			href="http://www.facebook.com" target="_blank"			 id="slide-18-layer-3"
-						data-x="['left','left','left','left']" data-hoffset="['67','67','67','67']"
-						data-y="['bottom','bottom','bottom','bottom']" data-voffset="['30','30','30','30']"
-						data-width="none"
-						data-height="none"
-						data-whitespace="nowrap"
-						data-visibility="['on','on','off','off']"
-						data-transform_idle="o:1;"
-						data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power3.easeInOut;"
-						data-style_hover="c:rgba(255, 255, 255, 1.00);bg:rgba(59, 89, 152, 1.00);cursor:pointer;"
-
-						data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
-						data-transform_out="auto:auto;s:300;"
-						data-start="500"
-						data-splitin="none"
-						data-splitout="none"
-						data-actions=''
-						data-basealign="slide"
-						data-responsive_offset="off"
-						data-responsive="off"
-						data-startslide="0"
-						data-endslide="9"
-
-						style="z-index: 7; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);background-color:rgba(255, 255, 255, 1.00);padding:6px 10px 4px 11px;border-radius:30px 30px 30px 30px;"><i class="icon-facebook"></i>
-					</a>
-
-					<!-- LAYER NR. 4 -->
-					<a class="tp-caption   tp-static-layer"
-			 			href="https://www.twitter.com/" target="_blank"			 id="slide-18-layer-4"
-						data-x="['left','left','left','left']" data-hoffset="['30','30','30','30']"
-						data-y="['bottom','bottom','bottom','bottom']" data-voffset="['30','30','30','30']"
-						data-width="none"
-						data-height="none"
-						data-whitespace="nowrap"
-						data-visibility="['on','on','off','off']"
-						data-transform_idle="o:1;"
-						data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power3.easeInOut;"
-						data-style_hover="c:rgba(255, 255, 255, 1.00);bg:rgba(85, 172, 238, 1.00);cursor:pointer;"
-
-						data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
-						data-transform_out="auto:auto;s:300;"
-						data-start="500"
-						data-splitin="none"
-						data-splitout="none"
-						data-actions=''
-						data-basealign="slide"
-						data-responsive_offset="off"
-						data-responsive="off"
-						data-startslide="0"
-						data-endslide="9"
-
-						style="z-index: 8; white-space: nowrap; font-size: 17px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);background-color:rgba(255, 255, 255, 1.00);padding:6px 7px 4px 9px;border-radius:30px 30px 30px 30px;"><i class="icon-twitter" style="font-size: 14px;"></i>
-					</a>
-
-				</div>
-				<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
-			</div>
-		</div><!-- END REVOLUTION SLIDER -->
-
-	</div>
-
-</section><!-- #content end -->
-
-
-    <!-- External JavaScripts
-============================================= -->
-<script type="text/javascript" src="/AiColldark/js2/jquery.js"></script>
-<script type="text/javascript" src="/AiColldark/js2/plugins.js"></script>
-
-<!-- Footer Scripts
-============================================= -->
-<script type="text/javascript" src="/AiColldark/js2/functions.js"></script>
-
-<!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
-<script type="text/javascript" src="/AiColldark/include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-<script type="text/javascript" src="/AiColldark/include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-
-<script type="text/javascript" src="/AiColldark/include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script type="text/javascript" src="/AiColldark/include/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
-<script type="text/javascript" src="/AiColldark/include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script type="text/javascript" src="/AiColldark/include/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script type="text/javascript" src="/AiColldark/include/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
-
-
-
-
-<script type="text/javascript">
-  var tpj=jQuery;
-  var revapi48;
-  tpj(document).ready(function() {
-    if(tpj("#rev_slider_48_1").revolution == undefined){
-      revslider_showDoubleJqueryError("#rev_slider_48_1");
-    }else{
-      revapi48 = tpj("#rev_slider_48_1").show().revolution({
-        sliderType:"standard",
-        jsFileLocation:"include/rs-plugin/js/",
-        sliderLayout:"fullscreen",
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+  <!-- navbar-end -->
+
+
+      <!-- Shadow Element -->
+<section id="box-shadow-bottom"> </section>
+
+
+<!-- Portfolio Starts -->
+<section class="page-section-top-alt-np mt-20 pb-155 pb-md-110 pb-sm-85" id="portfolio-mp">
+ <!-- Begin Portfolio Filter -->
+  <div class="row">
+   <div class="col-lg-12">
+     <ul class="creations-filter">
+       <li><a href="#all" data-filter="*" class="filter-button current">All</a></li>
+       <li><a class="filter-button" href="#university" data-filter=".university">Architecture</a></li>
+       <li><a class="filter-button" href="#Hospitality" data-filter=".Hospitality">Exteriors</a></li>
+       <li><a class="filter-button" href="#Interior" data-filter=".Interior">Interiors</a></li>
+       <li><a class="filter-button" href="#other" data-filter=".other">Other</a></li>
+      </ul>
+    </div>
+  </div> <!--/.row-->
+
+
+<div class="row portfolio-container">
+
+  <div class="masonry-item col-md-3 col-sm-3 Hospitality">
+   <div class="xc-item square effect from_top_and_bottom">
+    <div class="img"><img src="/img/portfolio-1/NAUI/NAUI-1000x1500.jpg" alt="NAUI"></div>
+     <div class="mask">
+      <div class="portfolio-caption">
+       <a class="fancybox" data-fancybox-group="NAUI" href="/img/portfolio-1/NAUI/NAUI-2.jpg" title="Common Work Area"><i class="fa fa-plus"></i></a>
+       <a class="fancybox" data-fancybox-group="NAUI" href="/img/portfolio-1/NAUI/NAUI-3.jpg" title="Conference Room" style="display:none;"></a>
+       <a class="fancybox" data-fancybox-group="NAUI" href="/img/portfolio-1/NAUI/NAUI-4.jpg" title="Exterior One" style="display:none;"></a>
+       <a class="fancybox" data-fancybox-group="NAUI" href="/img/portfolio-1/NAUI/NAUI-5.jpg" title="Exterior Two" style="display:none;"></a>
+       <a class="fancybox" data-fancybox-group="NAUI" href="/img/portfolio-1/NAUI/NAUI-6.jpg" title="Foyer" style="display:none;"></a>
+       <a class="fancybox" data-fancybox-group="NAUI" href="/img/portfolio-1/NAUI/NAUI-7.jpg" title="Wall" style="display:none;"></a>
+       <a class="fancybox" data-fancybox-group="NAUI" href="/img/portfolio-1/NAUI/NAUI-8.jpg" title="Receptionist Area" style="display:none;"></a>
+       <p style="color:#F00">NAUI</p>
+      </div>
+     </div>
+    </div>
+   </div>
+
+   <div class="masonry-item col-md-3 col-sm-3 university Hospitality Interior">
+     <div class="xc-item square effect from_top_and_bottom">
+       <div class="img"><img src="/img/portfolio-1/glacial/glacial-1000x1500.jpg" alt="Glacial"></div>
+        <div class="mask">
+         <div class="portfolio-caption">
+          <a class="fancybox" data-fancybox-group="Glacial" href="/img/portfolio-1/glacial/glacial-2.jpg" title="Common Work Area"><i class="fa fa-plus"></i></a>
+          <a class="fancybox" data-fancybox-group="Glacial" href="/img/portfolio-1/glacial/glacial-3.jpg" title="Conference Room" style="display:none;"></a>
+          <a class="fancybox" data-fancybox-group="Glacial" href="/img/portfolio-1/glacial/glacial-4.jpg" title="Exterior One" style="display:none;"></a>
+          <a class="fancybox" data-fancybox-group="Glacial" href="/img/portfolio-1/glacial/glacial-5.jpg" title="Exterior Two" style="display:none;"></a>
+          <a class="fancybox" data-fancybox-group="Glacial" href="/img/portfolio-1/glacial/glacial-6.jpg" title="Foyer" style="display:none;"></a>
+          <a class="fancybox" data-fancybox-group="Glacial" href="/img/portfolio-1/glacial/glacial-7.jpg" title="Wall" style="display:none;"></a>
+          <a class="fancybox" data-fancybox-group="Glacial" href="/img/portfolio-1/glacial/glacial-8.jpg" title="Receptionist Area" style="display:none;"></a>
+          <p style="color:#F00">Glacial</p>
+        </div>
+      </div>
+     </div>
+    </div>
+
+ <div class="masonry-item col-md-3 col-sm-3 university Hospitality other">
+  <div class="xc-item square effect from_top_and_bottom">
+   <div class="img"><img src="/img/portfolio-1/tiger/tiger-1000x375.jpg" alt="Tiger"></div>
+    <div class="mask">
+     <div class="portfolio-caption">
+       <a class="fancybox" data-fancybox-group="Tiger" href="/img/portfolio-1/tiger/tiger-2.jpg" title="3D Rendering"><i class="fa fa-plus"></i></a>
+       <a class="fancybox" data-fancybox-group="Tiger" href="/img/portfolio-1/tiger/tiger-3.jpg" title="3D Rendering" style="display:none;"></a>
+       <a class="fancybox" data-fancybox-group="Tiger" href="/img/portfolio-1/tiger/tiger.jpg" title="3D Rendering" style="display:none;"></a>
+       <p style="color:#F00">Tiger</p>
+     </div>
+    </div>
+   </div>
+  </div>
+
+  <div class="masonry-item col-md-3 col-sm-3 other university Hospitality">
+    <div class="xc-item square effect from_top_and_bottom">
+      <div class="img"><img src="/img/portfolio-1/4th-street/4th-street-1000x375.jpg" alt="img"></div>
+      <div class="mask">
+        <div class="portfolio-caption">
+          <a class="fancybox" data-fancybox-group="4th Street" href="/img/portfolio-1/4th-street/4th-street-2.jpg" title="3D Rendering"><i class="fa fa-plus"></i></a>
+          <a class="fancybox" data-fancybox-group="4th Street" href="/img/portfolio-1/4th-street/4th-street-3.jpg" title="3D Rendering" style="display:none;"></a>
+          <a class="fancybox" data-fancybox-group="4th Street" href="/img/portfolio-1/4th-street/4th-street.jpg" title="3D Rendering" style="display:none;"></a>
+          <p style="color:#F00">4th Street</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="masonry-item col-md-3 col-sm-3 other university Interior">
+    <div class="xc-item square effect from_top_and_bottom">
+      <div class="img"><img src="/img/portfolio-1/university-park/university-park-1000x750.jpg" alt="img"></div>
+      <div class="mask">
+        <div class="portfolio-caption">
+          <a class="fancybox" data-fancybox-group="University Professional Park" href="/img/portfolio-1/university-park/university-park-2.jpg" title=""><i class="fa fa-plus"></i></a>
+          <a class="fancybox" data-fancybox-group="University Professional Park" href="/img/portfolio-1/university-park/university-park-3.jpg" title="" style="display:none;"></a>
+          <a class="fancybox" data-fancybox-group="University Professional Park" href="/img/portfolio-1/university-park/university-park-4.jpg" title="" style="display:none;"></a>
+          <a class="fancybox" data-fancybox-group="University Professional Park" href="/img/portfolio-1/university-park/university-park-5.jpg" title="" style="display:none;"></a>
+          <a class="fancybox" data-fancybox-group="University Professional Park" href="/img/portfolio-1/university-park/university-park.jpg" title="" style="display:none;"></a>
+          <p style="color:#F00">University Professional Park</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="masonry-item col-md-3 col-sm-3 university Interior Hospitality other">
+    <div class="xc-item square effect from_top_and_bottom">
+      <div class="img"><img src="/img/portfolio-1/brandon/brandon-1000x375.jpg" alt="Brandon Professional"></div>
+      <div class="mask">
+        <div class="portfolio-caption">
+          <a class="fancybox" data-fancybox-group="Brandon" href="/img/portfolio-1/brandon/brandon-2.jpg" title="Exterior 1"><i class="fa fa-plus"></i></a>
+          <a class="fancybox" data-fancybox-group="Brandon" href="/img/portfolio-1/brandon/brandon-3.jpg" title="Exterior 2" style="display:none;"></a>
+          <a class="fancybox" data-fancybox-group="Brandon" href="/img/portfolio-1/brandon/brandon-4.jpg" title="Exterior 3" style="display:none;"></a>
+          <a class="fancybox" data-fancybox-group="Brandon" href="/img/portfolio-1/brandon/brandon.jpg" title="Exterior 4" style="display:none;"></a>
+          <p style="color:#F00">Brandon Professional</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <div class="masonry-item col-md-3 col-sm-3 other Hospitality Interior">
+    <div class="xc-item square effect from_top_and_bottom">
+    <div class="img"><img src="/img/portfolio-1/brighthouse/brighthouse-1000x750.jpg" alt="Brighthouse"></div>
+      <div class="mask">
+        <div class="portfolio-caption">
+          <a class="fancybox" data-fancybox-group="Brighthouse" href="/img/portfolio-1/brighthouse/brighthouse-2.jpg" title="Exterior 1"><i class="fa fa-plus"></i></a>
+          <a class="fancybox" data-fancybox-group="Brighthouse" href="/img/portfolio-1/brighthouse/brighthouse-3.jpg" title="Exterior 2" style="display:none;"></a>
+          <p style="color:#F00">Brighthouse</p>
+        </div>
+      </div>
+     </div>
+    </div>
+
+  <div class="masonry-item col-md-3 col-sm-3 university Hospitality other">
+    <div class="xc-item square effect from_top_and_bottom">
+      <div class="img"><img src="/img/portfolio-1/addessi/addessi-1000x375.jpg" alt="Addessi Financial"></div>
+      <div class="mask">
+        <div class="portfolio-caption">
+          <a class="fancybox" data-fancybox-group="Addessi Financial" href="/img/portfolio-1/addessi/addessi.jpg" title="Exterior"><i class="fa fa-plus"></i></a>
+          <p style="color:#F00">Addessi Financial</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ </div>
+</section>
+<!--Portfolio Ends -->
+
+
+
+        <!-- jQuery Version 2.1.3 -->
+    <script src="/js/jquery-2.1.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/scrolling-nav.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.min.js"></script>
+    <script src="/js/appear.min.js"></script>
+    <script src="/js/animations.min.js"></script>
+    <script src="/js/retina-1.1.0.min.js"></script>
+    <script src="/js/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script src="/js/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script src="/js/jquery.fancybox-media.js?v=1.0.6"></script>
+    <script src="/js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    <script src="/js/jquery.flexslider-min.js"></script>
+    <script src="/js/jquery.validate.min.js"></script>
+    <script src="/js/jquery.form.min.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="/js/map.grey.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/jquery.parallax-1.1.3.js"></script>
+    <script src="/js/jquery.countTo.js"></script>
+    <script src="/js/SmoothScroll.js"></script>
+    <script src="/js/lazy-bootstrap-carousel-v3.js"></script>
+    <script src="/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="/js/main.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <script>
+    jQuery(document).ready(function() {
+    	jQuery('.banner-fullscreen').revolution( {
+    	  delay:8000,
+    	  startwidth:1170,
+    	  hideThumbs:200,
+      	fullScreen:'on',
+      	hideTimerBar:"on",
+      	navigationType:"none",
+        navigationArrows:"solo",
+        navigationStyle:"navbar-old",
+        touchenabled:"on",
         dottedOverlay:"none",
-        delay:9000,
-        navigation: {
-          keyboardNavigation:"off",
-          keyboard_direction: "horizontal",
-          mouseScrollNavigation:"on",
-          onHoverStop:"off",
-          touch:{
-            touchenabled:"on",
-            swipe_threshold: 75,
-            swipe_min_touches: 1,
-            swipe_direction: "vertical",
-            drag_block_vertical: false
-          }
-        },
-        responsiveLevels:[1240,1024,778,480],
-        gridwidth:[1240,1024,778,480],
-        gridheight:[868,768,960,720],
-        lazyType:"none",
-        shadow:0,
-        spinner:"off",
-        stopLoop:"on",
-        stopAfterLoops:0,
-        stopAtSlide:1,
-        shuffle:"off",
-        autoHeight:"off",
-        fullScreenAlignForce:"off",
-        fullScreenOffsetContainer: "",
-        fullScreenOffset: "",
-        disableProgressBar:"on",
-        hideThumbsOnMobile:"off",
-        hideSliderAtLimit:0,
-        hideCaptionAtLimit:0,
-        hideAllCaptionAtLilmit:0,
-        debugMode:false,
-        fallbacks: {
-          simplifyAll:"off",
-          nextSlideOnWindowFocus:"off",
-          disableFocusListener:false,
-        }
+        fullWidth:"on",
+        forceFullWidth: "off",
+        shadow:0
       });
-    }
-  });	/*ready*/
-</script>
-
-
-</body>
-</html>
+    });
+    </script>
 
     </body>
 </html>
