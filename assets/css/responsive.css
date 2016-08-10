@@ -38,6 +38,17 @@ h2 {
    font-size:13px;
    font-weight: 400;
 }
+
+a img {
+  max-width: 85%;
+}
+
+.left_arrow, .right_arrow {
+  color: white;
+  top: 50%;
+  position: fixed;
+}
+
 #portfolio .filter-button, #portfolio-mp .filter-button {
    margin-bottom:5px;
 }
@@ -320,7 +331,7 @@ a.gmap-btn {
    -moz-transition: 0.5s;
    -ms-transition: 0.5s;
    transition: 0.5s;
-   width:45%;
+  /* width:45%; */
 }
 .white-bgr .navbar-brand img {
    padding-top:10px;

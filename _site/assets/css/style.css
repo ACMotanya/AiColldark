@@ -3026,12 +3026,9 @@ a.gmap-btn .fa-angle-down {
 }
 .navbar-brand {
     display: block;
-    max-width: 200px;
+    max-width: 250px;
     float: left;
-    padding: 20px 15px;
-    font-size: 18px;
-    line-height: 20px;
-    height: 60px;
+
 }
 .navbar .navbar-nav li a {
     font-size: 14px;
@@ -4133,7 +4130,7 @@ a:hover #logo-words{
 }
 
 img.nav-img {
-  margin-top: 15px;
+
   border-radius: 10%;
   padding-top: 0 !important;
 }
@@ -4210,4 +4207,25 @@ img.nav-img {
   padding-right: 8px;
   padding-left: 3px;
   font-family: Georgia;
+}
+
+.left_arrow,
+.right_arrow {
+    width: 67px;
+    height: 20px;
+    position: absolute;
+    top: 11%;
+    margin-top: -10px; /* half the height of the arrows */
+    background: transparent;
+    font-size: 57px;
+    z-index: 2;
+    font-weight: 100;
+}
+
+.left_arrow {
+    left: 20px; /* the width of the arrows to keep them outside */
+}
+
+.right_arrow {
+    right: -20px; /* the width of the arrows to keep them outside */
 }
