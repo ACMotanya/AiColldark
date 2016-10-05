@@ -5,163 +5,357 @@ layout: default
 <!-- Shadow Element -->
 <section id="box-shadow-bottom"> </section>
 
+<a href="{{ site.baseurl }}/portfolio" class="left_arrow"> <i class="xc icon-left-angle" style="font-size: 70px; font-weight: 900; color: red;"></i></a>
+<a href="{{ site.baseurl }}/portfolio" class="right_arrow"><i class="xc icon-right-angle" style="font-size: 70px; font-weight: 900; color: red;"></i></a>
 
 <!-- Portfolio Starts -->
 <section class="page-section-top-alt-np mt-20 pb-155 pb-md-110 pb-sm-85" id="portfolio-mp">
- <!-- Begin Portfolio Filter -->
-  <div class="row">
-   <div class="col-lg-12">
-     <ul class="creations-filter">
-       <li><a href="#all" data-filter="*" class="filter-button current">All</a></li>
-       <li><a class="filter-button" href="#university" data-filter=".university">Architecture</a></li>
-       <li><a class="filter-button" href="#Hospitality" data-filter=".Hospitality">Exteriors</a></li>
-       <li><a class="filter-button" href="#Interior" data-filter=".Interior">Interiors</a></li>
-       <li><a class="filter-button" href="#other" data-filter=".other">Other</a></li>
-      </ul>
-    </div>
-  </div> <!--/.row-->
-
-
-<div class="row portfolio-container">
-
-  <div class="masonry-item col-md-3 col-sm-3 Hospitality">
-   <div class="xc-item square effect from_top_and_bottom">
-    <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/new-york-life/new-york-life-1000x1500.jpg" alt="New York Life"></div>
-     <div class="mask">
-      <div class="portfolio-caption">
-       <a class="fancybox" data-fancybox-group="new-york-life" href="{{ site.baseurl }}/img/portfolio-1/new-york-life/new-york-life-2.jpg" title="Conference Room"><i class="fa fa-plus"></i></a>
-       <a class="fancybox" data-fancybox-group="new-york-life" href="{{ site.baseurl }}/img/portfolio-1/new-york-life/new-york-life-3.jpg" title="Conference Room 2" style="display:none;"></a>
-       <a class="fancybox" data-fancybox-group="new-york-life" href="{{ site.baseurl }}/img/portfolio-1/new-york-life/new-york-life-4.jpg" title="Foyer" style="display:none;"></a>
-       <a class="fancybox" data-fancybox-group="new-york-life" href="{{ site.baseurl }}/img/portfolio-1/new-york-life/new-york-life-5.jpg" title="Gym" style="display:none;"></a>
-       <a class="fancybox" data-fancybox-group="new-york-life" href="{{ site.baseurl }}/img/portfolio-1/new-york-life/new-york-life-6.jpg" title="Cafe" style="display:none;"></a>
-       <a class="fancybox" data-fancybox-group="new-york-life" href="{{ site.baseurl }}/img/portfolio-1/new-york-life/new-york-life-7.jpg" title="Receptionist Area" style="display:none;"></a>
-       <a class="fancybox" data-fancybox-group="new-york-life" href="{{ site.baseurl }}/img/portfolio-1/new-york-life/new-york-life.jpg"   title="Conference Room 3" style="display:none;"></a>
-       <p style="color:#F00">New York Life</p>
-      </div>
-     </div>
-    </div>
-   </div>
-
-   <div class="masonry-item col-md-3 col-sm-3 university Hospitality Interior">
-     <div class="xc-item square effect from_top_and_bottom">
-       <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/one-harbor/one-harbor-1000x1500.jpg" alt="One Harbour Place"></div>
-        <div class="mask">
-         <div class="portfolio-caption">
-          <a class="fancybox" data-fancybox-group="one-harbor" href="{{ site.baseurl }}/img/portfolio-1/one-harbor/one-harbor-2.jpg" title="Elevator Bank"><i class="fa fa-plus"></i></a>
-          <a class="fancybox" data-fancybox-group="one-harbor" href="{{ site.baseurl }}/img/portfolio-1/one-harbor/one-harbor-3.jpg" title="Foyer" style="display:none;"></a>
-          <a class="fancybox" data-fancybox-group="one-harbor" href="{{ site.baseurl }}/img/portfolio-1/one-harbor/one-harbor.jpg"   title="Receptionist Area" style="display:none;"></a>
-
-          <p style="color:#F00">One Harbour Place</p>
+    <!-- Begin Portfolio Filter -->
+    <div class="row">
+        <div class="col-lg-12">
+            <ul class="creations-filter">
+                <li><a href="#all" data-filter=".page2" id="page2" class="filter-button current">All</a></li>
+                <li><a class="filter-button" href="#university" data-filter=".architecture">Architecture</a></li>
+                <li><a class="filter-button" href="#Interior" data-filter=".Interior">Interiors</a></li>
+                <li><a class="filter-button" href="#other" data-filter=".other">Other</a></li>
+            </ul>
         </div>
-      </div>
-     </div>
     </div>
+    <!--/.row-->
 
- <div class="masonry-item col-md-3 col-sm-3 university Hospitality other">
-  <div class="xc-item square effect from_top_and_bottom">
-   <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/matrixx/matrixx-1000x375.jpg" alt="MyMatrix"></div>
-    <div class="mask">
-     <div class="portfolio-caption">
-       <a class="fancybox" data-fancybox-group="Matrixx" href="{{ site.baseurl }}/img/portfolio-1/matrixx/matrixx-2.jpg" title="Conference Room"><i class="fa fa-plus"></i></a>
-       <a class="fancybox" data-fancybox-group="Matrixx" href="{{ site.baseurl }}/img/portfolio-1/matrixx/matrixx-3.jpg" title="Hallway" style="display:none;"></a>
-       <a class="fancybox" data-fancybox-group="Matrixx" href="{{ site.baseurl }}/img/portfolio-1/matrixx/matrixx-4.jpg" title="Hallway 2" style="display:none;"></a>
-       <a class="fancybox" data-fancybox-group="Matrixx" href="{{ site.baseurl }}/img/portfolio-1/matrixx/matrixx-5.jpg" title="Work Area" style="display:none;"></a>
-       <a class="fancybox" data-fancybox-group="Matrixx" href="{{ site.baseurl }}/img/portfolio-1/matrixx/matrixx-6.jpg" title="Break Room" style="display:none;"></a>
-       <a class="fancybox" data-fancybox-group="Matrixx" href="{{ site.baseurl }}/img/portfolio-1/matrixx/matrixx-7.jpg" title="Kitchen" style="display:none;"></a>
-       <a class="fancybox" data-fancybox-group="Matrixx" href="{{ site.baseurl }}/img/portfolio-1/matrixx/matrixx-8.jpg" title="Receptionist Area" style="display:none;"></a>
-       <a class="fancybox" data-fancybox-group="Matrixx" href="{{ site.baseurl }}/img/portfolio-1/matrixx/matrixx.jpg"   title="Waiting Area" style="display:none;"></a>
-       <p style="color:#F00">MyMatrix</p>
-     </div>
-    </div>
-   </div>
-  </div>
 
-  <div class="masonry-item col-md-3 col-sm-3 other university Hospitality">
-    <div class="xc-item square effect from_top_and_bottom">
-      <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/west-elm/west-elm-1000x375.jpg" alt="West Elm"></div>
-      <div class="mask">
-        <div class="portfolio-caption">
-          <a class="fancybox" data-fancybox-group="West Elm" href="{{ site.baseurl }}/img/portfolio-1/west-elm/west-elm-2.jpg" title="Conference Room"><i class="fa fa-plus"></i></a>
-          <a class="fancybox" data-fancybox-group="West Elm" href="{{ site.baseurl }}/img/portfolio-1/west-elm/west-elm-3.jpg" title="Common Area" style="display:none;"></a>
-          <a class="fancybox" data-fancybox-group="West Elm" href="{{ site.baseurl }}/img/portfolio-1/west-elm/west-elm-4.jpg" title="Receptionist Area" style="display:none;"></a>
-          <a class="fancybox" data-fancybox-group="West Elm" href="{{ site.baseurl }}/img/portfolio-1/west-elm/west-elm-5.jpg" title="Common Area 2" style="display:none;"></a>
-          <a class="fancybox" data-fancybox-group="West Elm" href="{{ site.baseurl }}/img/portfolio-1/west-elm/west-elm-6.jpg" title="Office" style="display:none;"></a>
-          <a class="fancybox" data-fancybox-group="West Elm" href="{{ site.baseurl }}/img/portfolio-1/west-elm/west-elm.jpg"   title="Creative Corner" style="display:none;"></a>
-          <p style="color:#F00">West Elm</p>
+    <div class="row portfolio-container">
+
+        <div class="masonry-item col-md-3 col-sm-3 Interior page2">
+            <div class="xc-item square effect from_top_and_bottom">
+                <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/new-york-life/new-york-life-1000x1500.jpg" alt="New York Life"></div>
+                <div class="mask">
+                    <div class="portfolio-caption">
+                        <a class="fancybox" data-fancybox-group="new-york-life" href="{{ site.baseurl }}/img/portfolio-1/new-york-life/new-york-life-2.jpg" title="Conference Room"><i class="fa fa-plus"></i></a>
+                        <a class="fancybox" data-fancybox-group="new-york-life" href="{{ site.baseurl }}/img/portfolio-1/new-york-life/new-york-life-3.jpg" title="Conference Room 2" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="new-york-life" href="{{ site.baseurl }}/img/portfolio-1/new-york-life/new-york-life-4.jpg" title="Foyer" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="new-york-life" href="{{ site.baseurl }}/img/portfolio-1/new-york-life/new-york-life-5.jpg" title="Gym" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="new-york-life" href="{{ site.baseurl }}/img/portfolio-1/new-york-life/new-york-life-6.jpg" title="Cafe" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="new-york-life" href="{{ site.baseurl }}/img/portfolio-1/new-york-life/new-york-life-7.jpg" title="Receptionist Area" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="new-york-life" href="{{ site.baseurl }}/img/portfolio-1/new-york-life/new-york-life.jpg" title="Conference Room 3" style="display:none;"></a>
+                        <p style="color:#F00">New York Life</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
 
-
-  <div class="masonry-item col-md-3 col-sm-3 other university Interior">
-    <div class="xc-item square effect from_top_and_bottom">
-      <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/westshore-center/westshore-center-1000x750.jpg" alt="Westshore Center"></div>
-      <div class="mask">
-        <div class="portfolio-caption">
-          <a class="fancybox" data-fancybox-group="Westshore Center" href="{{ site.baseurl }}/img/portfolio-1/westshore-center/westshore-center-2.jpg" title="Walkway"><i class="fa fa-plus"></i></a>
-          <a class="fancybox" data-fancybox-group="Westshore Center" href="{{ site.baseurl }}/img/portfolio-1/westshore-center/westshore-center-3.jpg" title="Elevator Bank" style="display:none;"></a>
-          <a class="fancybox" data-fancybox-group="Westshore Center" href="{{ site.baseurl }}/img/portfolio-1/westshore-center/westshore-center-4.jpg" title="Cafe" style="display:none;"></a>
-          <a class="fancybox" data-fancybox-group="Westshore Center" href="{{ site.baseurl }}/img/portfolio-1/westshore-center/westshore-center-5.jpg" title="Hallway" style="display:none;"></a>
-          <a class="fancybox" data-fancybox-group="Westshore Center" href="{{ site.baseurl }}/img/portfolio-1/westshore-center/westshore-center.jpg" title="Entrance" style="display:none;"></a>
-          <p style="color:#F00">Westshore Center</p>
+        <div class="masonry-item col-md-3 col-sm-3 architecture page2">
+            <div class="xc-item square effect from_top_and_bottom">
+                <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/brighthouse/brighthouse-1000x375.jpg" alt="Brighthouse"></div>
+                <div class="mask">
+                    <div class="portfolio-caption">
+                        <a class="fancybox" data-fancybox-group="Brighthouse" href="{{ site.baseurl }}/img/portfolio-1/brighthouse/brighthouse-2.jpg" title="Exterior 1"><i class="fa fa-plus"></i></a>
+                        <a class="fancybox" data-fancybox-group="Brighthouse" href="{{ site.baseurl }}/img/portfolio-1/brighthouse/brighthouse-3.jpg" title="Exterior 2" style="display:none;"></a>
+                        <p style="color:#F00">Brighthouse</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="masonry-item col-md-3 col-sm-3 university Interior Hospitality other">
-    <div class="xc-item square effect from_top_and_bottom">
-      <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/old-advantec/old-advantec-1000x375.jpg" alt="Advantec Professional"></div>
-      <div class="mask">
-        <div class="portfolio-caption">
-          <a class="fancybox" data-fancybox-group="Advantec" href="{{ site.baseurl }}/img/portfolio-1/old-advantec/old-advantec-2.jpg" title="Conference Room"><i class="fa fa-plus"></i></a>
-          <a class="fancybox" data-fancybox-group="Advantec" href="{{ site.baseurl }}/img/portfolio-1/old-advantec/old-advantec-3.jpg" title="Cafe" style="display:none;"></a>
-          <a class="fancybox" data-fancybox-group="Advantec" href="{{ site.baseurl }}/img/portfolio-1/old-advantec/old-advantec-4.jpg" title="Break Room" style="display:none;"></a>
-          <a class="fancybox" data-fancybox-group="Advantec" href="{{ site.baseurl }}/img/portfolio-1/old-advantec/old-advantec-5.jpg" title="Waiting Area" style="display:none;"></a>
-          <a class="fancybox" data-fancybox-group="Advantec" href="{{ site.baseurl }}/img/portfolio-1/old-advantec/old-advantec-6.jpg" title="Receptionist Area" style="display:none;"></a>
-          <a class="fancybox" data-fancybox-group="Advantec" href="{{ site.baseurl }}/img/portfolio-1/old-advantec/old-advantec.jpg"   title="Receptionist Area 2" style="display:none;"></a>
-          <p style="color:#F00">Advantec</p>
+        <div class="masonry-item col-md-3 col-sm-3 architecture page2">
+            <div class="xc-item square effect from_top_and_bottom">
+                <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/CocaCola/3cocacola-1000x375.jpg" alt="cocacola"></div>
+                <div class="mask">
+                    <div class="portfolio-caption">
+                        <a class="fancybox" data-fancybox-group="cocacola" href="{{ site.baseurl }}/img/portfolio-1/CocaCola/1cocacola.jpg" title="Exterior 1"><i class="fa fa-plus"></i></a>
+                        <a class="fancybox" data-fancybox-group="cocacola" href="{{ site.baseurl }}/img/portfolio-1/CocaCola/2cocacola.jpg" title="Exterior 2" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="cocacola" href="{{ site.baseurl }}/img/portfolio-1/CocaCola/3cocacola.jpg" title="Exterior 1" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="cocacola" href="{{ site.baseurl }}/img/portfolio-1/CocaCola/4cocacola.jpg" title="Exterior 2" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="cocacola" href="{{ site.baseurl }}/img/portfolio-1/CocaCola/5cocacola.jpg" title="Exterior 1" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="cocacola" href="{{ site.baseurl }}/img/portfolio-1/CocaCola/6cocacola.jpg" title="Exterior 1" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="cocacola" href="{{ site.baseurl }}/img/portfolio-1/CocaCola/7cocacola.jpg" title="Exterior 2" style="display:none;"></a>
+                        <p style="color:#F00">Coca-Cola</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
 
-   <div class="masonry-item col-md-3 col-sm-3 other Hospitality Interior">
-    <div class="xc-item square effect from_top_and_bottom">
-    <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/brighthouse-hq/brighthouse-hq-1000x750.jpg" alt="Brighthouse Maitland"></div>
-      <div class="mask">
-        <div class="portfolio-caption">
-          <a class="fancybox" data-fancybox-group="Brighthouse" href="{{ site.baseurl }}/img/portfolio-1/brighthouse-hq/brighthouse-hq-2.jpg" title="Conference Room"><i class="fa fa-plus"></i></a>
-          <a class="fancybox" data-fancybox-group="Brighthouse" href="{{ site.baseurl }}/img/portfolio-1/brighthouse-hq/brighthouse-hq-3.jpg" title="Conference Room 2" style="display:none;"></a>
-          <a class="fancybox" data-fancybox-group="Brighthouse" href="{{ site.baseurl }}/img/portfolio-1/brighthouse-hq/brighthouse-hq-4.jpg" title="Waiting Area" style="display:none;"></a>
-          <a class="fancybox" data-fancybox-group="Brighthouse" href="{{ site.baseurl }}/img/portfolio-1/brighthouse-hq/brighthouse-hq-5.jpg" title="Print Center" style="display:none;"></a>
-          <a class="fancybox" data-fancybox-group="Brighthouse" href="{{ site.baseurl }}/img/portfolio-1/brighthouse-hq/brighthouse-hq-6.jpg" title="Studio Set" style="display:none;"></a>
-          <a class="fancybox" data-fancybox-group="Brighthouse" href="{{ site.baseurl }}/img/portfolio-1/brighthouse-hq/brighthouse-hq.jpg"   title="Cafe" style="display:none;"></a>
-          <p style="color:#F00">Brighthouse Maitland</p>
+
+
+        <div class="masonry-item col-md-3 col-sm-3 other page2">
+            <div class="xc-item square effect from_top_and_bottom">
+                <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/ravis/ravis-1000x750.jpg" alt="Ravis"></div>
+                <div class="mask">
+                    <div class="portfolio-caption">
+                        <a class="fancybox" data-fancybox-group="Ravis" href="{{ site.baseurl }}/img/portfolio-1/ravis/ravis-2.jpg" title="Common Work Area"><i class="fa fa-plus"></i></a>
+                        <a class="fancybox" data-fancybox-group="Ravis" href="{{ site.baseurl }}/img/portfolio-1/ravis/ravis-3.jpg" title="Conference Room" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Ravis" href="{{ site.baseurl }}/img/portfolio-1/ravis/ravis-4.jpg" title="Exterior One" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Ravis" href="{{ site.baseurl }}/img/portfolio-1/ravis/ravis.jpg" title="Exterior Two" style="display:none;"></a>
+                        <p style="color:#F00">Ravis Banquet Hall</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-     </div>
-    </div>
 
-  <div class="masonry-item col-md-3 col-sm-3 university Hospitality other">
-    <div class="xc-item square effect from_top_and_bottom">
-      <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/bloomin-brands/bloomin-brands-1000x375.jpg" alt="Bloomin Brands"></div>
-      <div class="mask">
-        <div class="portfolio-caption">
-          <a class="fancybox" data-fancybox-group="Bloomin Brands" href="{{ site.baseurl }}/img/portfolio-1/bloomin-brands/bloomin-brands-2.jpg" title="Corner"><i class="fa fa-plus"></i></a>
-          <a class="fancybox" data-fancybox-group="Bloomin Brands" href="{{ site.baseurl }}/img/portfolio-1/bloomin-brands/bloomin-brands-3.jpg" title="Foyer" style="display:none;"></a>
-          <a class="fancybox" data-fancybox-group="Bloomin Brands" href="{{ site.baseurl }}/img/portfolio-1/bloomin-brands/bloomin-brands-4.jpg" title="Hallway" style="display:none;"></a>
-          <a class="fancybox" data-fancybox-group="Bloomin Brands" href="{{ site.baseurl }}/img/portfolio-1/bloomin-brands/bloomin-brands-5.jpg" title="Wall" style="display:none;"></a>
-          <a class="fancybox" data-fancybox-group="Bloomin Brands" href="{{ site.baseurl }}/img/portfolio-1/bloomin-brands/bloomin-brands-6.jpg" title="Break Room" style="display:none;"></a>
-          <a class="fancybox" data-fancybox-group="Bloomin Brands" href="{{ site.baseurl }}/img/portfolio-1/bloomin-brands/bloomin-brands-7.jpg" title="Receptionist Area" style="display:none;"></a>
-          <a class="fancybox" data-fancybox-group="Bloomin Brands" href="{{ site.baseurl }}/img/portfolio-1/bloomin-brands/bloomin-brands.jpg"   title="Conference Room" style="display:none;"></a>
-          <p style="color:#F00">Bloomin Brands</p>
+
+
+        <div class="masonry-item col-md-3 col-sm-3 Interior page2">
+            <div class="xc-item square effect from_top_and_bottom">
+                <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/matrixx/matrixx-1000x375.jpg" alt="MyMatrix"></div>
+                <div class="mask">
+                    <div class="portfolio-caption">
+                        <a class="fancybox" data-fancybox-group="Matrixx" href="{{ site.baseurl }}/img/portfolio-1/matrixx/matrixx-2.jpg" title="Conference Room"><i class="fa fa-plus"></i></a>
+                        <a class="fancybox" data-fancybox-group="Matrixx" href="{{ site.baseurl }}/img/portfolio-1/matrixx/matrixx-3.jpg" title="Hallway" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Matrixx" href="{{ site.baseurl }}/img/portfolio-1/matrixx/matrixx-4.jpg" title="Hallway 2" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Matrixx" href="{{ site.baseurl }}/img/portfolio-1/matrixx/matrixx-5.jpg" title="Work Area" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Matrixx" href="{{ site.baseurl }}/img/portfolio-1/matrixx/matrixx-6.jpg" title="Break Room" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Matrixx" href="{{ site.baseurl }}/img/portfolio-1/matrixx/matrixx-7.jpg" title="Kitchen" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Matrixx" href="{{ site.baseurl }}/img/portfolio-1/matrixx/matrixx-8.jpg" title="Receptionist Area" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Matrixx" href="{{ site.baseurl }}/img/portfolio-1/matrixx/matrixx.jpg" title="Waiting Area" style="display:none;"></a>
+                        <p style="color:#F00">MyMatrix</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
 
- </div>
+        <div class="masonry-item col-md-3 col-sm-3 other page2">
+            <div class="xc-item square effect from_top_and_bottom">
+                <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/4th-street/4th-street-1000x375.jpg" alt="img"></div>
+                <div class="mask">
+                    <div class="portfolio-caption">
+                        <a class="fancybox" data-fancybox-group="4th Street" href="{{ site.baseurl }}/img/portfolio-1/4th-street/4th-street-7.jpg" title="3D Rendering"><i class="fa fa-plus"></i></a>
+                        <a class="fancybox" data-fancybox-group="4th Street" href="{{ site.baseurl }}/img/portfolio-1/4th-street/4th-street-6.jpg" title="3D Rendering" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="4th Street" href="{{ site.baseurl }}/img/portfolio-1/4th-street/4th-street-5.jpg" title="3D Rendering" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="4th Street" href="{{ site.baseurl }}/img/portfolio-1/4th-street/4th-street-4.jpg" title="3D Rendering" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="4th Street" href="{{ site.baseurl }}/img/portfolio-1/4th-street/4th-street-3.jpg" title="3D Rendering" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="4th Street" href="{{ site.baseurl }}/img/portfolio-1/4th-street/4th-street-2.jpg" title="3D Rendering" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="4th Street" href="{{ site.baseurl }}/img/portfolio-1/4th-street/4th-street.jpg" title="3D Rendering" style="display:none;"></a>
+                        <p style="color:#F00">4th Street</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="masonry-item col-md-3 col-sm-3 architecture Interior page2">
+            <div class="xc-item square effect from_top_and_bottom">
+                <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/university-park/university-park-1000x750-2.jpg" alt="img"></div>
+                <div class="mask">
+                    <div class="portfolio-caption">
+                        <a class="fancybox" data-fancybox-group="University Professional Park" href="{{ site.baseurl }}/img/portfolio-1/university-park/university-park-2.jpg" title="Exterior One"><i class="fa fa-plus"></i></a>
+                        <a class="fancybox" data-fancybox-group="University Professional Park" href="{{ site.baseurl }}/img/portfolio-1/university-park/university-park-3.jpg" title="Exterior Two" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="University Professional Park" href="{{ site.baseurl }}/img/portfolio-1/university-park/university-park-4.jpg" title="Exterior Three" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="University Professional Park" href="{{ site.baseurl }}/img/portfolio-1/university-park/university-park-5.jpg" title="Exterior Four" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="University Professional Park" href="{{ site.baseurl }}/img/portfolio-1/university-park/university-park.jpg" title="Elevator Bank" style="display:none;"></a>
+                        <p style="color:#F00">University Professional Park</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="masonry-item col-md-3 col-sm-3 Interior page2">
+            <div class="xc-item square effect from_top_and_bottom">
+                <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/old-advantec/old-advantec-1000x375.jpg" alt="Advantec Professional"></div>
+                <div class="mask">
+                    <div class="portfolio-caption">
+                        <a class="fancybox" data-fancybox-group="Advantec" href="{{ site.baseurl }}/img/portfolio-1/old-advantec/old-advantec-2.jpg" title="Conference Room"><i class="fa fa-plus"></i></a>
+                        <a class="fancybox" data-fancybox-group="Advantec" href="{{ site.baseurl }}/img/portfolio-1/old-advantec/old-advantec-3.jpg" title="Cafe" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Advantec" href="{{ site.baseurl }}/img/portfolio-1/old-advantec/old-advantec-4.jpg" title="Break Room" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Advantec" href="{{ site.baseurl }}/img/portfolio-1/old-advantec/old-advantec-5.jpg" title="Waiting Area" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Advantec" href="{{ site.baseurl }}/img/portfolio-1/old-advantec/old-advantec-6.jpg" title="Receptionist Area" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Advantec" href="{{ site.baseurl }}/img/portfolio-1/old-advantec/old-advantec.jpg" title="Receptionist Area 2" style="display:none;"></a>
+                        <p style="color:#F00">Advantec</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="masonry-item col-md-3 col-sm-3 architecture Interior page2">
+            <div class="xc-item square effect from_top_and_bottom">
+                <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/glacial/glacial-1000x750.jpg" alt="Glacial"></div>
+                <div class="mask">
+                    <div class="portfolio-caption">
+                        <a class="fancybox" data-fancybox-group="Glacial" href="{{ site.baseurl }}/img/portfolio-1/glacial/glacial-2.jpg" title="Common Work Area"><i class="fa fa-plus"></i></a>
+                        <a class="fancybox" data-fancybox-group="Glacial" href="{{ site.baseurl }}/img/portfolio-1/glacial/glacial-3.jpg" title="Conference Room" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Glacial" href="{{ site.baseurl }}/img/portfolio-1/glacial/glacial-4.jpg" title="Exterior One" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Glacial" href="{{ site.baseurl }}/img/portfolio-1/glacial/glacial-5.jpg" title="Exterior Two" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Glacial" href="{{ site.baseurl }}/img/portfolio-1/glacial/glacial-6.jpg" title="Foyer" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Glacial" href="{{ site.baseurl }}/img/portfolio-1/glacial/glacial-7.jpg" title="Wall" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Glacial" href="{{ site.baseurl }}/img/portfolio-1/glacial/glacial-8.jpg" title="Receptionist Area" style="display:none;"></a>
+                        <p style="color:#F00">Glacial</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="masonry-item col-md-3 col-sm-3 architecture page2">
+            <div class="xc-item square effect from_top_and_bottom">
+                <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/addessi/addessi-1000x375.jpg" alt="Addessi Financial"></div>
+                <div class="mask">
+                    <div class="portfolio-caption">
+                        <a class="fancybox" data-fancybox-group="Addessi Financial" href="{{ site.baseurl }}/img/portfolio-1/addessi/addessi.jpg" title="Exterior"><i class="fa fa-plus"></i></a>
+                        <p style="color:#F00">Addessi Financial</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="masonry-item col-md-3 col-sm-3 architecture Interior page1">
+            <div class="xc-item square effect from_top_and_bottom">
+                <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/NAUI/NAUI-1000x750-2.jpg" alt="NAUI"></div>
+                <div class="mask">
+                    <div class="portfolio-caption">
+                        <a class="fancybox" data-fancybox-group="NAUI" href="{{ site.baseurl }}/img/portfolio-1/NAUI/NAUI-2.jpg" title="Common Work Area"><i class="fa fa-plus"></i></a>
+                        <a class="fancybox" data-fancybox-group="NAUI" href="{{ site.baseurl }}/img/portfolio-1/NAUI/NAUI-3.jpg" title="Conference Room" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="NAUI" href="{{ site.baseurl }}/img/portfolio-1/NAUI/NAUI-4.jpg" title="Exterior One" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="NAUI" href="{{ site.baseurl }}/img/portfolio-1/NAUI/NAUI-5.jpg" title="Exterior Two" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="NAUI" href="{{ site.baseurl }}/img/portfolio-1/NAUI/NAUI-6.jpg" title="Foyer" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="NAUI" href="{{ site.baseurl }}/img/portfolio-1/NAUI/NAUI-7.jpg" title="Wall" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="NAUI" href="{{ site.baseurl }}/img/portfolio-1/NAUI/NAUI-8.jpg" title="Receptionist Area" style="display:none;"></a>
+                        <p style="color:#F00">NAUI</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="masonry-item col-md-3 col-sm-3 other page1">
+            <div class="xc-item square effect from_top_and_bottom">
+                <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/bigelow/bigelow-1000x750.jpg" alt="Bigelow"></div>
+                <div class="mask">
+                    <div class="portfolio-caption">
+                        <a class="fancybox" data-fancybox-group="Bigelow Aerospace" href="{{ site.baseurl }}/img/portfolio-1/bigelow/bigelow-2.jpg" title="Display Foyar"><i class="fa fa-plus"></i></a>
+                        <a class="fancybox" data-fancybox-group="Bigelow Aerospace" href="{{ site.baseurl }}/img/portfolio-1/bigelow/bigelow-3.jpg" title="Schematics" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Bigelow Aerospace" href="{{ site.baseurl }}/img/portfolio-1/bigelow/bigelow-4.jpg" title="Schematics One" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Bigelow Aerospace" href="{{ site.baseurl }}/img/portfolio-1/bigelow/bigelow-5.jpg" title="Display Foyar Two" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Bigelow Aerospace" href="{{ site.baseurl }}/img/portfolio-1/bigelow/bigelow.jpg" title="3D Rendering" style="display:none;"></a>
+                        <p style="color:#F00">Bigelow Aerospace</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="masonry-item col-md-3 col-sm-3 Interior page1">
+            <div class="xc-item square effect from_top_and_bottom">
+                <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/one-harbor/one-harbor-1000x1500.jpg" alt="One Harbour Place"></div>
+                <div class="mask">
+                    <div class="portfolio-caption">
+                        <a class="fancybox" data-fancybox-group="one-harbor" href="{{ site.baseurl }}/img/portfolio-1/one-harbor/one-harbor-2.jpg" title="Elevator Bank"><i class="fa fa-plus"></i></a>
+                        <a class="fancybox" data-fancybox-group="one-harbor" href="{{ site.baseurl }}/img/portfolio-1/one-harbor/one-harbor-3.jpg" title="Foyer" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="one-harbor" href="{{ site.baseurl }}/img/portfolio-1/one-harbor/one-harbor.jpg" title="Receptionist Area" style="display:none;"></a>
+                        <p style="color:#F00">One Harbour Place</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="masonry-item col-md-3 col-sm-3 Interior page1">
+            <div class="xc-item square effect from_top_and_bottom">
+                <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/bloomin-brands/bloomin-brands-1000x375.jpg" alt="Bloomin Brands"></div>
+                <div class="mask">
+                    <div class="portfolio-caption">
+                        <a class="fancybox" data-fancybox-group="Bloomin Brands" href="{{ site.baseurl }}/img/portfolio-1/bloomin-brands/bloomin-brands-2.jpg" title="Corner"><i class="fa fa-plus"></i></a>
+                        <a class="fancybox" data-fancybox-group="Bloomin Brands" href="{{ site.baseurl }}/img/portfolio-1/bloomin-brands/bloomin-brands-3.jpg" title="Foyer" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Bloomin Brands" href="{{ site.baseurl }}/img/portfolio-1/bloomin-brands/bloomin-brands-4.jpg" title="Hallway" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Bloomin Brands" href="{{ site.baseurl }}/img/portfolio-1/bloomin-brands/bloomin-brands-5.jpg" title="Wall" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Bloomin Brands" href="{{ site.baseurl }}/img/portfolio-1/bloomin-brands/bloomin-brands-6.jpg" title="Break Room" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Bloomin Brands" href="{{ site.baseurl }}/img/portfolio-1/bloomin-brands/bloomin-brands-7.jpg" title="Receptionist Area" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Bloomin Brands" href="{{ site.baseurl }}/img/portfolio-1/bloomin-brands/bloomin-brands.jpg" title="Conference Room" style="display:none;"></a>
+                        <p style="color:#F00">Bloomin Brands</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="masonry-item col-md-3 col-sm-3 Interior page1">
+            <div class="xc-item square effect from_top_and_bottom">
+                <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/west-elm/west-elm-1000x375.jpg" alt="West Elm"></div>
+                <div class="mask">
+                    <div class="portfolio-caption">
+                        <a class="fancybox" data-fancybox-group="West Elm" href="{{ site.baseurl }}/img/portfolio-1/west-elm/west-elm-2.jpg" title="Conference Room"><i class="fa fa-plus"></i></a>
+                        <a class="fancybox" data-fancybox-group="West Elm" href="{{ site.baseurl }}/img/portfolio-1/west-elm/west-elm-3.jpg" title="Common Area" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="West Elm" href="{{ site.baseurl }}/img/portfolio-1/west-elm/west-elm-4.jpg" title="Receptionist Area" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="West Elm" href="{{ site.baseurl }}/img/portfolio-1/west-elm/west-elm-5.jpg" title="Common Area 2" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="West Elm" href="{{ site.baseurl }}/img/portfolio-1/west-elm/west-elm-6.jpg" title="Office" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="West Elm" href="{{ site.baseurl }}/img/portfolio-1/west-elm/west-elm.jpg" title="Creative Corner" style="display:none;"></a>
+                        <p style="color:#F00">West Elm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="masonry-item col-md-3 col-sm-3 Interior page1">
+            <div class="xc-item square effect from_top_and_bottom">
+                <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/westshore-center/westshore-center-1000x750.jpg" alt="Westshore Center"></div>
+                <div class="mask">
+                    <div class="portfolio-caption">
+                        <a class="fancybox" data-fancybox-group="Westshore Center" href="{{ site.baseurl }}/img/portfolio-1/westshore-center/westshore-center-2.jpg" title="Walkway"><i class="fa fa-plus"></i></a>
+                        <a class="fancybox" data-fancybox-group="Westshore Center" href="{{ site.baseurl }}/img/portfolio-1/westshore-center/westshore-center-3.jpg" title="Elevator Bank" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Westshore Center" href="{{ site.baseurl }}/img/portfolio-1/westshore-center/westshore-center-4.jpg" title="Cafe" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Westshore Center" href="{{ site.baseurl }}/img/portfolio-1/westshore-center/westshore-center-5.jpg" title="Hallway" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Westshore Center" href="{{ site.baseurl }}/img/portfolio-1/westshore-center/westshore-center.jpg" title="Entrance" style="display:none;"></a>
+                        <p style="color:#F00">Westshore Center</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="masonry-item col-md-3 col-sm-3 architecture page1">
+            <div class="xc-item square effect from_top_and_bottom">
+                <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/brandon/brandon-1000x375.jpg" alt="Brandon Professional"></div>
+                <div class="mask">
+                    <div class="portfolio-caption">
+                        <a class="fancybox" data-fancybox-group="Brandon" href="{{ site.baseurl }}/img/portfolio-1/brandon/brandon-2.jpg" title="Exterior 1"><i class="fa fa-plus"></i></a>
+                        <a class="fancybox" data-fancybox-group="Brandon" href="{{ site.baseurl }}/img/portfolio-1/brandon/brandon-3.jpg" title="Exterior 2" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Brandon" href="{{ site.baseurl }}/img/portfolio-1/brandon/brandon-4.jpg" title="Exterior 3" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Brandon" href="{{ site.baseurl }}/img/portfolio-1/brandon/brandon.jpg" title="Exterior 4" style="display:none;"></a>
+                        <p style="color:#F00">Brandon Professional</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="masonry-item col-md-3 col-sm-3 Interior page1">
+            <div class="xc-item square effect from_top_and_bottom">
+                <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/brighthouse-hq/brighthouse-hq-1000x375.jpg" alt="Brighthouse Maitland"></div>
+                <div class="mask">
+                    <div class="portfolio-caption">
+                        <a class="fancybox" data-fancybox-group="Brighthouse" href="{{ site.baseurl }}/img/portfolio-1/brighthouse-hq/brighthouse-hq-2.jpg" title="Conference Room"><i class="fa fa-plus"></i></a>
+                        <a class="fancybox" data-fancybox-group="Brighthouse" href="{{ site.baseurl }}/img/portfolio-1/brighthouse-hq/brighthouse-hq-3.jpg" title="Conference Room 2" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Brighthouse" href="{{ site.baseurl }}/img/portfolio-1/brighthouse-hq/brighthouse-hq-4.jpg" title="Waiting Area" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Brighthouse" href="{{ site.baseurl }}/img/portfolio-1/brighthouse-hq/brighthouse-hq-5.jpg" title="Print Center" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Brighthouse" href="{{ site.baseurl }}/img/portfolio-1/brighthouse-hq/brighthouse-hq-6.jpg" title="Studio Set" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Brighthouse" href="{{ site.baseurl }}/img/portfolio-1/brighthouse-hq/brighthouse-hq.jpg" title="Cafe" style="display:none;"></a>
+                        <p style="color:#F00">Brighthouse Maitland</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="masonry-item col-md-3 col-sm-3 Interior page1">
+            <div class="xc-item square effect from_top_and_bottom">
+                <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/EMI/EMI-1000x375.jpg" alt="EMI"></div>
+                <div class="mask">
+                    <div class="portfolio-caption">
+                        <a class="fancybox" data-fancybox-group="Brighthouse" href="{{ site.baseurl }}/img/portfolio-1/EMI/EMI-2.jpg" title="Conference Room"><i class="fa fa-plus"></i></a>
+                        <a class="fancybox" data-fancybox-group="Brighthouse" href="{{ site.baseurl }}/img/portfolio-1/EMI/EMI-3.jpg" title="Conference Room 2" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Brighthouse" href="{{ site.baseurl }}/img/portfolio-1/EMI/EMI-4.jpg" title="Waiting Area" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Brighthouse" href="{{ site.baseurl }}/img/portfolio-1/EMI/EMI-1.jpg" title="Print Center" style="display:none;"></a>
+                        <p style="color:#F00">EMI</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="masonry-item col-md-3 col-sm-3 other page1">
+            <div class="xc-item square effect from_top_and_bottom">
+                <div class="img"><img src="{{ site.baseurl }}/img/portfolio-1/tiger/tiger-1000x375.jpg" alt="Tiger"></div>
+                <div class="mask">
+                    <div class="portfolio-caption">
+                        <a class="fancybox" data-fancybox-group="Tiger" href="{{ site.baseurl }}/img/portfolio-1/tiger/tiger-2.jpg" title="3D Rendering"><i class="fa fa-plus"></i></a>
+                        <a class="fancybox" data-fancybox-group="Tiger" href="{{ site.baseurl }}/img/portfolio-1/tiger/tiger-3.jpg" title="3D Rendering" style="display:none;"></a>
+                        <a class="fancybox" data-fancybox-group="Tiger" href="{{ site.baseurl }}/img/portfolio-1/tiger/tiger.jpg" title="3D Rendering" style="display:none;"></a>
+                        <p style="color:#F00">Tiger</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </section>
 <!--Portfolio Ends -->

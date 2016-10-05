@@ -29,9 +29,19 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
                <ul class="nav navbar-nav navbar-right">
-                 <li><a class="page-scroll" href="{{ site.baseurl }}/profile">Profile</a></li>
-                 <li><a class="page-scroll" href="{{ site.baseurl }}/portfolio">Portfolio</a></li>
-                 <li><a class="page-scroll" href="{{ site.baseurl }}/awards">Awards</a></li>
+                 <li class="dropdown">
+                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Profile</a>
+                   <ul class="dropdown-menu">
+                     <li><a href="{{ site.baseurl }}/about">About</a></li>
+                     <li><a href="{{ site.baseurl }}/services">Services</a></li>
+                     <li><a href="{{ site.baseurl }}/principals">Principals</a></li>
+                   </ul>
+                 </li> <!-- /.dropdown -->
+                 <li>
+                   <a class="page-scroll" href="{{ site.baseurl }}/portfolio">Portfolio</a>
+                   <ul class="dropdown-menu"></ul>
+                  </li>
+                 <li><a class="page-scroll" href="{{ site.baseurl }}/comingsoon2">Awards</a></li>
                  <li><a class="page-scroll" href="{{ site.baseurl }}/contact">Contact</a></li>
                </ul><!--/.nav navbar-nav navbar-right-->
             </div>

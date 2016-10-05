@@ -350,8 +350,8 @@ a.gmap-btn {
    transition:0.5s;
 }
 .nav-height.navbar-shrink  {
-   background: #282828;
-   border-bottom:1px solid #282828;
+   background: #fff;
+   border-bottom:1px solid #fff;
 }
 .navbar-shrink .navbar-brand img {
    padding-top:5px;

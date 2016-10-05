@@ -4211,21 +4211,20 @@ img.nav-img {
 
 .left_arrow,
 .right_arrow {
-    width: 67px;
-    height: 20px;
     position: absolute;
-    top: 11%;
-    margin-top: -10px; /* half the height of the arrows */
-    background: transparent;
-    font-size: 57px;
+    top: 50%;
+    background: rgba(0,0,0,0.7);
     z-index: 2;
-    font-weight: 100;
 }
 
 .left_arrow {
-    left: 20px; /* the width of the arrows to keep them outside */
+    left: 0px; /* the width of the arrows to keep them outside */
 }
 
 .right_arrow {
-    right: -20px; /* the width of the arrows to keep them outside */
+    right: 0px; /* the width of the arrows to keep them outside */
+}
+
+.masonry-item {
+  padding: 2px !important;
 }

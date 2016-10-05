@@ -12,5 +12,18 @@
 
 
     {% include js.html %}
+
+    <script>
+    jQuery( window ).load(function() {
+      if (window.location.pathname === "/portfolio/") {
+        jQuery('#page1').click();
+        console.log("hello there load");
+      } else if (window.location.pathname === "/portfolio-2/"){
+        jQuery('#page2').click();
+        console.log("hello there load");
+      }
+    });
+    </script>
+
     </body>
 </html>
